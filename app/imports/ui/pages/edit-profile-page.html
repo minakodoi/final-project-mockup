@@ -73,6 +73,16 @@
           </div>
         </div>
 
+        <div class="field">
+          <label>Description of yourself</label>
+          <input type="text" name="description" id="description" placeholder="Description of yourself" value="{{ contactField 'description' }}">
+          {{#if displayFieldError 'description' }}
+            <div class="ui error message">
+              <p>You must specify description of yourselft</p>
+            </div>
+          {{/if}}
+        </div>
+
         <button class="ui button" type="submit">Update</button>
         <button class="ui button delete" type="button">Delete</button>
       </form>

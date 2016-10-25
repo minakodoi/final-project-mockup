@@ -43,7 +43,8 @@ Template.Add_Profile_Page.events({
     const sensei = event.target.sensei.value;
     const currCourse = event.target.currCourse.value;
     const grasshopper = event.target.sensei.value;
-    const newProfile = { first, last, preCourse, currCourse, sensei, grasshopper };
+    const description = event.target.description.value;
+    const newProfile = { first, last, preCourse, currCourse, sensei, grasshopper, description };
     // Clear out any old validation errors.
     instance.context.resetValidation();
     // Invoke clean so that newStudentData reflects what will be inserted.

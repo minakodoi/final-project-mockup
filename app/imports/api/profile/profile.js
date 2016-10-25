@@ -44,7 +44,13 @@ export const ProfileSchema = new SimpleSchema({
     type: String,
     optional: false,
     max: 200,
-  }
+  },
+  description: {
+    label: 'description',
+    type: String,
+    optional: false,
+    max: 1000,
+  },
 });
 
 Profile.attachSchema(ProfileSchema);
