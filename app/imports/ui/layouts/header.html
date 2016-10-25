@@ -8,8 +8,10 @@
       <!--{{> Cas_Login }}-->
       {{#if currentUser}}
         <a class="{{ isActiveRoute 'Add_Profile_Page'}} item" href="{{ pathFor 'Add_Profile_Page' }}">Add Profile</a>
+        <a class="{{ isActiveRoute 'Add_Session_Page'}} item" href="{{ pathFor 'Add_Session_Page' }}">Add Study Session</a>
         <a class="{{ isActiveRoute 'List_Profile_Page'}} item" href="{{ pathFor 'List_Profile_Page' }}">List of Profiles</a>
         <a class="{{ isActiveRoute 'List_Course_Page'}} item" href="{{ pathFor 'List_Course_Page' }}">List of Courses</a>
+        <a class="{{ isActiveRoute 'List_Session_Page'}} item" href="{{ pathFor 'List_Session_Page' }}">List of Study Session</a>
       {{/if}}
       <a href="#" class="item">{{> loginButtons }} </a>
     </div>
