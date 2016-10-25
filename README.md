@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template/master/doc/home-page.png)
+![](final-project-mockup/doc/home_login.png)
 
 Meteor-application-template is a sample Meteor 1.4 application that illustrates:
 
