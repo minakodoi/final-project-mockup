@@ -195,10 +195,10 @@
 190 verbose installManyTop reading scoped package data from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/wrappy/package.json
 191 verbose installManyTop reading scoped package data from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/write/package.json
 192 verbose installManyTop reading scoped package data from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/xtend/package.json
-193 info package.json babel-regenerator-runtime@6.5.0 No description
-194 info package.json babel-regenerator-runtime@6.5.0 No repository field.
-195 info package.json babel-regenerator-runtime@6.5.0 license should be a valid SPDX license expression
-196 info package.json babel-polyfill@6.9.0 No description
+193 info package.json babel-polyfill@6.9.0 No description
+194 info package.json babel-regenerator-runtime@6.5.0 No description
+195 info package.json babel-regenerator-runtime@6.5.0 No repository field.
+196 info package.json babel-regenerator-runtime@6.5.0 license should be a valid SPDX license expression
 197 info package.json babel-traverse@6.16.0 No description
 198 info package.json deep-is@0.1.3 license should be a valid SPDX license expression
 199 info package.json doctrine@1.5.0 No license field.
@@ -212,7 +212,7 @@
 207 info package.json source-map-support@0.2.10 No license field.
 208 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
 209 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/package.json
-210 verbose install eslint-plugin-meteor is installed as 3.6.0
+210 verbose install eslint-plugin-meteor is installed as 4.0.1
 211 silly cache add args [ 'eslint-plugin-meteor', null ]
 212 verbose cache add spec eslint-plugin-meteor
 213 silly cache add parsed spec Result {
@@ -239,33 +239,33 @@
 222 verbose addNameTag registry:https://registry.npmjs.org/eslint-plugin-meteor not in flight; fetching
 223 verbose request uri https://registry.npmjs.org/eslint-plugin-meteor
 224 verbose request no auth needed
-225 info attempt registry request try #1 at 10:42:57 PM
-226 verbose request id 3b9f9d3ccc6cc94c
+225 info attempt registry request try #1 at 1:51:35 AM
+226 verbose request id da79ff0056480df9
 227 verbose etag "1BCOJ0XSXY5T0WXPK4B91YBSX"
 228 http request GET https://registry.npmjs.org/eslint-plugin-meteor
 229 http 304 https://registry.npmjs.org/eslint-plugin-meteor
-230 verbose headers { date: 'Mon, 24 Oct 2016 08:42:57 GMT',
+230 verbose headers { date: 'Mon, 24 Oct 2016 11:51:37 GMT',
 230 verbose headers   via: '1.1 varnish',
 230 verbose headers   'cache-control': 'max-age=300',
 230 verbose headers   etag: '"1BCOJ0XSXY5T0WXPK4B91YBSX"',
-230 verbose headers   age: '62',
+230 verbose headers   age: '0',
 230 verbose headers   connection: 'keep-alive',
-230 verbose headers   'x-served-by': 'cache-sjc3628-SJC',
-230 verbose headers   'x-cache': 'HIT',
-230 verbose headers   'x-cache-hits': '1',
-230 verbose headers   'x-timer': 'S1477298577.868414,VS0,VE0',
+230 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+230 verbose headers   'x-cache': 'MISS',
+230 verbose headers   'x-cache-hits': '0',
+230 verbose headers   'x-timer': 'S1477309897.456189,VS0,VE444',
 230 verbose headers   vary: 'Accept-Encoding' }
 231 silly get cb [ 304,
-231 silly get   { date: 'Mon, 24 Oct 2016 08:42:57 GMT',
+231 silly get   { date: 'Mon, 24 Oct 2016 11:51:37 GMT',
 231 silly get     via: '1.1 varnish',
 231 silly get     'cache-control': 'max-age=300',
 231 silly get     etag: '"1BCOJ0XSXY5T0WXPK4B91YBSX"',
-231 silly get     age: '62',
+231 silly get     age: '0',
 231 silly get     connection: 'keep-alive',
-231 silly get     'x-served-by': 'cache-sjc3628-SJC',
-231 silly get     'x-cache': 'HIT',
-231 silly get     'x-cache-hits': '1',
-231 silly get     'x-timer': 'S1477298577.868414,VS0,VE0',
+231 silly get     'x-served-by': 'cache-sjc3147-SJC',
+231 silly get     'x-cache': 'MISS',
+231 silly get     'x-cache-hits': '0',
+231 silly get     'x-timer': 'S1477309897.456189,VS0,VE444',
 231 silly get     vary: 'Accept-Encoding' } ]
 232 verbose etag https://registry.npmjs.org/eslint-plugin-meteor from cache
 233 verbose get saving eslint-plugin-meteor to /Users/Minako/.npm/registry.npmjs.org/eslint-plugin-meteor/.cache.json
@@ -273,1312 +273,1270 @@
 235 silly addNameTag next cb for eslint-plugin-meteor with tag latest
 236 silly addNamed eslint-plugin-meteor@4.0.1
 237 verbose addNamed "4.0.1" is a plain semver version for eslint-plugin-meteor
-238 silly mapToRegistry name eslint-plugin-meteor
-239 silly mapToRegistry using default registry
-240 silly mapToRegistry registry https://registry.npmjs.org/
-241 silly mapToRegistry data Result {
-241 silly mapToRegistry   raw: 'eslint-plugin-meteor',
-241 silly mapToRegistry   scope: null,
-241 silly mapToRegistry   name: 'eslint-plugin-meteor',
-241 silly mapToRegistry   rawSpec: '',
-241 silly mapToRegistry   spec: 'latest',
-241 silly mapToRegistry   type: 'tag' }
-242 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-meteor
-243 verbose addRemoteTarball https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz not in flight; adding
-244 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz',
-244 verbose addRemoteTarball   '442ef4fe66f9b21ae40a89826784121150cb17ff' ]
-245 info retry fetch attempt 1 at 10:42:57 PM
-246 info attempt registry request try #1 at 10:42:57 PM
-247 http fetch GET https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz
-248 http fetch 200 https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz
-249 silly fetchAndShaCheck shasum 442ef4fe66f9b21ae40a89826784121150cb17ff
-250 verbose addTmpTarball /var/folders/n8/sg6vhnln6ng63sxlk8mlkhdr0000gn/T/npm-51469-e6977de2/registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz not in flight; adding
-251 verbose addTmpTarball already have metadata; skipping unpack for eslint-plugin-meteor@4.0.1
-252 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-253 silly cache afterAdd eslint-plugin-meteor@4.0.1
-254 verbose afterAdd /Users/Minako/.npm/eslint-plugin-meteor/4.0.1/package/package.json not in flight; writing
-255 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-256 verbose afterAdd /Users/Minako/.npm/eslint-plugin-meteor/4.0.1/package/package.json written
-257 silly install resolved [ { name: 'eslint-plugin-meteor',
-257 silly install resolved     author:
-257 silly install resolved      { name: 'Dominik Ferber',
-257 silly install resolved        email: 'dominik.ferber+npm@gmail.com' },
-257 silly install resolved     description: 'Meteor specific linting rules for ESLint',
-257 silly install resolved     main: 'dist/index.js',
-257 silly install resolved     publishConfig: { tag: 'next' },
-257 silly install resolved     release: { branch: 'master' },
-257 silly install resolved     scripts:
-257 silly install resolved      { build: 'babel lib -d dist',
-257 silly install resolved        'build:w': 'npm run build -- --watch',
-257 silly install resolved        'coverage:check': 'nyc check-coverage --lines 100 --functions 100 --branches 100',
-257 silly install resolved        'coverage:report': 'nyc report',
-257 silly install resolved        clean: 'rimraf dist',
-257 silly install resolved        coveralls: 'cat ./coverage/lcov.info | coveralls',
-257 silly install resolved        lint: 'eslint ./',
-257 silly install resolved        prebuild: 'npm run clean && mkdir dist',
-257 silly install resolved        prepublish: 'npm run build',
-257 silly install resolved        pretest: 'npm run lint',
-257 silly install resolved        rule: 'babel scripts/new-rule.js | node',
-257 silly install resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post',
-257 silly install resolved        test: 'npm run unit-test && npm run coverage:report && npm run coverage:check',
-257 silly install resolved        'unit-test': 'nyc --require=babel-register --reporter=lcov mocha tests --recursive',
-257 silly install resolved        'unit-test:w': 'npm run unit-test -s -- --watch' },
-257 silly install resolved     files: [ 'LICENSE', 'README.md', 'dist' ],
-257 silly install resolved     repository:
-257 silly install resolved      { type: 'git',
-257 silly install resolved        url: 'git+https://github.com/dferber90/eslint-plugin-meteor.git' },
-257 silly install resolved     homepage: 'https://github.com/dferber90/eslint-plugin-meteor',
-257 silly install resolved     bugs: { url: 'https://github.com/dferber90/eslint-plugin-meteor/issues' },
-257 silly install resolved     dependencies:
-257 silly install resolved      { 'babel-register': '6.16.3',
-257 silly install resolved        'babel-runtime': '6.11.6',
-257 silly install resolved        escope: '3.6.0',
-257 silly install resolved        invariant: '2.2.1',
-257 silly install resolved        'lodash.find': '4.6.0',
-257 silly install resolved        'lodash.memoize': '4.1.2',
-257 silly install resolved        'path-exists': '3.0.0' },
-257 silly install resolved     devDependencies:
-257 silly install resolved      { 'babel-cli': '6.16.0',
-257 silly install resolved        'babel-core': '6.17.0',
-257 silly install resolved        'babel-plugin-transform-object-rest-spread': '6.16.0',
-257 silly install resolved        'babel-plugin-transform-runtime': '6.15.0',
-257 silly install resolved        'babel-preset-es2015': '6.16.0',
-257 silly install resolved        'babel-preset-stage-3': '6.17.0',
-257 silly install resolved        colors: '1.1.2',
-257 silly install resolved        coveralls: '2.11.14',
-257 silly install resolved        'cz-conventional-changelog': '1.2.0',
-257 silly install resolved        eslint: '3.6.1',
-257 silly install resolved        'eslint-config-airbnb': '12.0.0',
-257 silly install resolved        'eslint-plugin-import': '2.0.0',
-257 silly install resolved        'eslint-plugin-jsx-a11y': '^2.2.1',
-257 silly install resolved        'eslint-plugin-react': '6.2.2',
-257 silly install resolved        ghooks: '1.3.2',
-257 silly install resolved        mocha: '3.1.0',
-257 silly install resolved        nyc: '8.3.0',
-257 silly install resolved        'readline-sync': '1.4.4',
-257 silly install resolved        rewire: '2.5.2',
-257 silly install resolved        rimraf: '2.5.4',
-257 silly install resolved        'semantic-release': '4.3.5',
-257 silly install resolved        'validate-commit-msg': '2.8.0' },
-257 silly install resolved     peerDependencies: { eslint: '^3.7.0' },
-257 silly install resolved     engines: { node: '>=4' },
-257 silly install resolved     keywords: [ 'eslint', 'eslint-plugin', 'eslintplugin', 'meteor' ],
-257 silly install resolved     config: { ghooks: [Object], commitizen: [Object] },
-257 silly install resolved     license: 'MIT',
-257 silly install resolved     contributors: [],
-257 silly install resolved     version: '4.0.1',
-257 silly install resolved     gitHead: '14d1dec21678610c1254e63cd26edec0afb4b462',
-257 silly install resolved     _id: 'eslint-plugin-meteor@4.0.1',
-257 silly install resolved     _shasum: '442ef4fe66f9b21ae40a89826784121150cb17ff',
-257 silly install resolved     _from: 'eslint-plugin-meteor@latest',
-257 silly install resolved     _npmVersion: '3.10.8',
-257 silly install resolved     _nodeVersion: '4.6.0',
-257 silly install resolved     _npmUser: { name: 'dferber90', email: 'dominik.ferber@gmail.com' },
-257 silly install resolved     dist:
-257 silly install resolved      { shasum: '442ef4fe66f9b21ae40a89826784121150cb17ff',
-257 silly install resolved        tarball: 'https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz' },
-257 silly install resolved     maintainers: [ [Object] ],
-257 silly install resolved     _npmOperationalInternal:
-257 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
-257 silly install resolved        tmp: 'tmp/eslint-plugin-meteor-4.0.1.tgz_1475656875602_0.511325248517096' },
-257 silly install resolved     directories: {},
-257 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz' } ]
-258 info install eslint-plugin-meteor@4.0.1 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-259 info installOne eslint-plugin-meteor@4.0.1
-260 verbose installOne of eslint-plugin-meteor to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app not in flight; installing
-261 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-262 verbose lock using /Users/Minako/.npm/_locks/eslint-plugin-meteor-2ed0991029f538ae.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-263 silly install write writing eslint-plugin-meteor 4.0.1 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-264 verbose unbuild node_modules/eslint-plugin-meteor
-265 info preuninstall eslint-plugin-meteor@3.6.0
-266 info uninstall eslint-plugin-meteor@3.6.0
-267 verbose unbuild rmStuff eslint-plugin-meteor@3.6.0 from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules
-268 info postuninstall eslint-plugin-meteor@3.6.0
-269 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-270 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-271 silly vacuum-fs purging /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-272 silly vacuum-fs quitting because other entries in /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules
-273 verbose tar unpack /Users/Minako/.npm/eslint-plugin-meteor/4.0.1/package.tgz
-274 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-275 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor is being purged
-276 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-277 silly gunzTarPerm modes [ '755', '644' ]
-278 silly gunzTarPerm extractEntry package.json
-279 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
-280 silly gunzTarPerm extractEntry README.md
-281 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
-282 silly gunzTarPerm extractEntry LICENSE
-283 silly gunzTarPerm modified mode [ 'LICENSE', 509, 493 ]
-284 silly gunzTarPerm extractEntry dist/index.js
-285 silly gunzTarPerm modified mode [ 'dist/index.js', 509, 493 ]
-286 silly gunzTarPerm extractEntry dist/rules/audit-argument-checks.js
-287 silly gunzTarPerm modified mode [ 'dist/rules/audit-argument-checks.js', 436, 420 ]
-288 silly gunzTarPerm extractEntry dist/rules/no-dom-lookup-on-created.js
-289 silly gunzTarPerm modified mode [ 'dist/rules/no-dom-lookup-on-created.js', 436, 420 ]
-290 silly gunzTarPerm extractEntry dist/rules/no-session.js
-291 silly gunzTarPerm modified mode [ 'dist/rules/no-session.js', 436, 420 ]
-292 silly gunzTarPerm extractEntry dist/rules/no-template-lifecycle-assignments.js
-293 silly gunzTarPerm modified mode [ 'dist/rules/no-template-lifecycle-assignments.js', 436, 420 ]
-294 silly gunzTarPerm extractEntry dist/rules/eventmap-params.js
-295 silly gunzTarPerm modified mode [ 'dist/rules/eventmap-params.js', 436, 420 ]
-296 silly gunzTarPerm extractEntry dist/rules/no-zero-timeout.js
-297 silly gunzTarPerm modified mode [ 'dist/rules/no-zero-timeout.js', 436, 420 ]
-298 silly gunzTarPerm extractEntry dist/rules/prefer-session-equals.js
-299 silly gunzTarPerm modified mode [ 'dist/rules/prefer-session-equals.js', 436, 420 ]
-300 silly gunzTarPerm extractEntry dist/rules/prefix-eventmap-selectors.js
-301 silly gunzTarPerm modified mode [ 'dist/rules/prefix-eventmap-selectors.js', 436, 420 ]
-302 silly gunzTarPerm extractEntry dist/rules/scope-dom-lookups.js
-303 silly gunzTarPerm modified mode [ 'dist/rules/scope-dom-lookups.js', 436, 420 ]
-304 silly gunzTarPerm extractEntry dist/rules/template-names.js
-305 silly gunzTarPerm modified mode [ 'dist/rules/template-names.js', 436, 420 ]
-306 silly gunzTarPerm extractEntry dist/rules/no-template-parent-data.js
-307 silly gunzTarPerm modified mode [ 'dist/rules/no-template-parent-data.js', 436, 420 ]
-308 silly gunzTarPerm extractEntry dist/util/environment.js
-309 silly gunzTarPerm modified mode [ 'dist/util/environment.js', 436, 420 ]
-310 silly gunzTarPerm extractEntry dist/util/ast/getPropertyName.js
-311 silly gunzTarPerm modified mode [ 'dist/util/ast/getPropertyName.js', 436, 420 ]
-312 silly gunzTarPerm extractEntry dist/util/ast/index.js
-313 silly gunzTarPerm modified mode [ 'dist/util/ast/index.js', 436, 420 ]
-314 silly gunzTarPerm extractEntry dist/util/ast/isFunction.js
-315 silly gunzTarPerm modified mode [ 'dist/util/ast/isFunction.js', 436, 420 ]
-316 silly gunzTarPerm extractEntry dist/util/ast/isMeteorCall.js
-317 silly gunzTarPerm modified mode [ 'dist/util/ast/isMeteorCall.js', 436, 420 ]
-318 silly gunzTarPerm extractEntry dist/util/ast/isMeteorProp.js
-319 silly gunzTarPerm modified mode [ 'dist/util/ast/isMeteorProp.js', 436, 420 ]
-320 silly gunzTarPerm extractEntry dist/util/ast/isTemplateProp.js
-321 silly gunzTarPerm modified mode [ 'dist/util/ast/isTemplateProp.js', 436, 420 ]
-322 silly gunzTarPerm extractEntry dist/util/executors/filterExecutorsByAncestors.js
-323 silly gunzTarPerm modified mode [ 'dist/util/executors/filterExecutorsByAncestors.js', 436, 420 ]
-324 silly gunzTarPerm extractEntry dist/util/executors/getExecutors.js
-325 silly gunzTarPerm modified mode [ 'dist/util/executors/getExecutors.js', 436, 420 ]
-326 silly gunzTarPerm extractEntry dist/util/executors/getExecutorsByEnv.js
-327 silly gunzTarPerm modified mode [ 'dist/util/executors/getExecutorsByEnv.js', 436, 420 ]
-328 silly gunzTarPerm extractEntry dist/util/executors/getExecutorsFromTest.js
-329 silly gunzTarPerm modified mode [ 'dist/util/executors/getExecutorsFromTest.js', 436, 420 ]
-330 silly gunzTarPerm extractEntry dist/util/executors/invert.js
-331 silly gunzTarPerm modified mode [ 'dist/util/executors/invert.js', 436, 420 ]
-332 silly gunzTarPerm extractEntry dist/util/executors/isMeteorBlockOnlyTest.js
-333 silly gunzTarPerm modified mode [ 'dist/util/executors/isMeteorBlockOnlyTest.js', 436, 420 ]
-334 silly gunzTarPerm extractEntry dist/util/executors/sets.js
-335 silly gunzTarPerm modified mode [ 'dist/util/executors/sets.js', 436, 420 ]
-336 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/package.json
-337 info preinstall eslint-plugin-meteor@4.0.1
-338 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/package.json
-339 silly prepareForInstallMany adding babel-register@6.16.3 from eslint-plugin-meteor dependencies
-340 silly prepareForInstallMany adding babel-runtime@6.11.6 from eslint-plugin-meteor dependencies
-341 silly prepareForInstallMany adding lodash.find@4.6.0 from eslint-plugin-meteor dependencies
-342 silly prepareForInstallMany adding lodash.memoize@4.1.2 from eslint-plugin-meteor dependencies
-343 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/package.json
-344 silly cache add args [ 'lodash.find@4.6.0', null ]
-345 verbose cache add spec lodash.find@4.6.0
-346 silly cache add parsed spec Result {
-346 silly cache add   raw: 'lodash.find@4.6.0',
-346 silly cache add   scope: null,
-346 silly cache add   name: 'lodash.find',
-346 silly cache add   rawSpec: '4.6.0',
-346 silly cache add   spec: '4.6.0',
-346 silly cache add   type: 'version' }
-347 silly addNamed lodash.find@4.6.0
-348 verbose addNamed "4.6.0" is a plain semver version for lodash.find
-349 silly mapToRegistry name lodash.find
-350 silly mapToRegistry using default registry
-351 silly mapToRegistry registry https://registry.npmjs.org/
-352 silly mapToRegistry data Result {
-352 silly mapToRegistry   raw: 'lodash.find',
-352 silly mapToRegistry   scope: null,
-352 silly mapToRegistry   name: 'lodash.find',
-352 silly mapToRegistry   rawSpec: '',
-352 silly mapToRegistry   spec: 'latest',
-352 silly mapToRegistry   type: 'tag' }
-353 silly mapToRegistry uri https://registry.npmjs.org/lodash.find
-354 verbose addNameVersion registry:https://registry.npmjs.org/lodash.find not in flight; fetching
-355 silly cache add args [ 'lodash.memoize@4.1.2', null ]
-356 verbose cache add spec lodash.memoize@4.1.2
-357 silly cache add parsed spec Result {
-357 silly cache add   raw: 'lodash.memoize@4.1.2',
-357 silly cache add   scope: null,
-357 silly cache add   name: 'lodash.memoize',
-357 silly cache add   rawSpec: '4.1.2',
-357 silly cache add   spec: '4.1.2',
-357 silly cache add   type: 'version' }
-358 silly addNamed lodash.memoize@4.1.2
-359 verbose addNamed "4.1.2" is a plain semver version for lodash.memoize
-360 silly mapToRegistry name lodash.memoize
-361 silly mapToRegistry using default registry
-362 silly mapToRegistry registry https://registry.npmjs.org/
-363 silly mapToRegistry data Result {
-363 silly mapToRegistry   raw: 'lodash.memoize',
-363 silly mapToRegistry   scope: null,
-363 silly mapToRegistry   name: 'lodash.memoize',
-363 silly mapToRegistry   rawSpec: '',
-363 silly mapToRegistry   spec: 'latest',
-363 silly mapToRegistry   type: 'tag' }
-364 silly mapToRegistry uri https://registry.npmjs.org/lodash.memoize
-365 verbose addNameVersion registry:https://registry.npmjs.org/lodash.memoize not in flight; fetching
-366 silly cache add args [ 'babel-register@6.16.3', null ]
-367 verbose cache add spec babel-register@6.16.3
-368 silly cache add parsed spec Result {
-368 silly cache add   raw: 'babel-register@6.16.3',
-368 silly cache add   scope: null,
-368 silly cache add   name: 'babel-register',
-368 silly cache add   rawSpec: '6.16.3',
-368 silly cache add   spec: '6.16.3',
-368 silly cache add   type: 'version' }
-369 silly addNamed babel-register@6.16.3
-370 verbose addNamed "6.16.3" is a plain semver version for babel-register
-371 silly mapToRegistry name babel-register
-372 silly mapToRegistry using default registry
-373 silly mapToRegistry registry https://registry.npmjs.org/
-374 silly mapToRegistry data Result {
-374 silly mapToRegistry   raw: 'babel-register',
-374 silly mapToRegistry   scope: null,
-374 silly mapToRegistry   name: 'babel-register',
-374 silly mapToRegistry   rawSpec: '',
-374 silly mapToRegistry   spec: 'latest',
-374 silly mapToRegistry   type: 'tag' }
-375 silly mapToRegistry uri https://registry.npmjs.org/babel-register
-376 verbose addNameVersion registry:https://registry.npmjs.org/babel-register not in flight; fetching
-377 silly cache add args [ 'babel-runtime@6.11.6', null ]
-378 verbose cache add spec babel-runtime@6.11.6
-379 silly cache add parsed spec Result {
-379 silly cache add   raw: 'babel-runtime@6.11.6',
-379 silly cache add   scope: null,
-379 silly cache add   name: 'babel-runtime',
-379 silly cache add   rawSpec: '6.11.6',
-379 silly cache add   spec: '6.11.6',
-379 silly cache add   type: 'version' }
-380 silly addNamed babel-runtime@6.11.6
-381 verbose addNamed "6.11.6" is a plain semver version for babel-runtime
-382 silly mapToRegistry name babel-runtime
-383 silly mapToRegistry using default registry
-384 silly mapToRegistry registry https://registry.npmjs.org/
-385 silly mapToRegistry data Result {
-385 silly mapToRegistry   raw: 'babel-runtime',
-385 silly mapToRegistry   scope: null,
-385 silly mapToRegistry   name: 'babel-runtime',
-385 silly mapToRegistry   rawSpec: '',
-385 silly mapToRegistry   spec: 'latest',
-385 silly mapToRegistry   type: 'tag' }
-386 silly mapToRegistry uri https://registry.npmjs.org/babel-runtime
-387 verbose addNameVersion registry:https://registry.npmjs.org/babel-runtime not in flight; fetching
-388 verbose request uri https://registry.npmjs.org/lodash.find
+238 silly cache afterAdd eslint-plugin-meteor@4.0.1
+239 verbose afterAdd /Users/Minako/.npm/eslint-plugin-meteor/4.0.1/package/package.json not in flight; writing
+240 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+241 verbose afterAdd /Users/Minako/.npm/eslint-plugin-meteor/4.0.1/package/package.json written
+242 silly install resolved [ { name: 'eslint-plugin-meteor',
+242 silly install resolved     author:
+242 silly install resolved      { name: 'Dominik Ferber',
+242 silly install resolved        email: 'dominik.ferber+npm@gmail.com' },
+242 silly install resolved     description: 'Meteor specific linting rules for ESLint',
+242 silly install resolved     main: 'dist/index.js',
+242 silly install resolved     publishConfig: { tag: 'next' },
+242 silly install resolved     release: { branch: 'master' },
+242 silly install resolved     scripts:
+242 silly install resolved      { build: 'babel lib -d dist',
+242 silly install resolved        'build:w': 'npm run build -- --watch',
+242 silly install resolved        'coverage:check': 'nyc check-coverage --lines 100 --functions 100 --branches 100',
+242 silly install resolved        'coverage:report': 'nyc report',
+242 silly install resolved        clean: 'rimraf dist',
+242 silly install resolved        coveralls: 'cat ./coverage/lcov.info | coveralls',
+242 silly install resolved        lint: 'eslint ./',
+242 silly install resolved        prebuild: 'npm run clean && mkdir dist',
+242 silly install resolved        prepublish: 'npm run build',
+242 silly install resolved        pretest: 'npm run lint',
+242 silly install resolved        rule: 'babel scripts/new-rule.js | node',
+242 silly install resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post',
+242 silly install resolved        test: 'npm run unit-test && npm run coverage:report && npm run coverage:check',
+242 silly install resolved        'unit-test': 'nyc --require=babel-register --reporter=lcov mocha tests --recursive',
+242 silly install resolved        'unit-test:w': 'npm run unit-test -s -- --watch' },
+242 silly install resolved     files: [ 'LICENSE', 'README.md', 'dist' ],
+242 silly install resolved     repository:
+242 silly install resolved      { type: 'git',
+242 silly install resolved        url: 'git+https://github.com/dferber90/eslint-plugin-meteor.git' },
+242 silly install resolved     homepage: 'https://github.com/dferber90/eslint-plugin-meteor',
+242 silly install resolved     bugs: { url: 'https://github.com/dferber90/eslint-plugin-meteor/issues' },
+242 silly install resolved     dependencies:
+242 silly install resolved      { 'babel-register': '6.16.3',
+242 silly install resolved        'babel-runtime': '6.11.6',
+242 silly install resolved        escope: '3.6.0',
+242 silly install resolved        invariant: '2.2.1',
+242 silly install resolved        'lodash.find': '4.6.0',
+242 silly install resolved        'lodash.memoize': '4.1.2',
+242 silly install resolved        'path-exists': '3.0.0' },
+242 silly install resolved     devDependencies:
+242 silly install resolved      { 'babel-cli': '6.16.0',
+242 silly install resolved        'babel-core': '6.17.0',
+242 silly install resolved        'babel-plugin-transform-object-rest-spread': '6.16.0',
+242 silly install resolved        'babel-plugin-transform-runtime': '6.15.0',
+242 silly install resolved        'babel-preset-es2015': '6.16.0',
+242 silly install resolved        'babel-preset-stage-3': '6.17.0',
+242 silly install resolved        colors: '1.1.2',
+242 silly install resolved        coveralls: '2.11.14',
+242 silly install resolved        'cz-conventional-changelog': '1.2.0',
+242 silly install resolved        eslint: '3.6.1',
+242 silly install resolved        'eslint-config-airbnb': '12.0.0',
+242 silly install resolved        'eslint-plugin-import': '2.0.0',
+242 silly install resolved        'eslint-plugin-jsx-a11y': '^2.2.1',
+242 silly install resolved        'eslint-plugin-react': '6.2.2',
+242 silly install resolved        ghooks: '1.3.2',
+242 silly install resolved        mocha: '3.1.0',
+242 silly install resolved        nyc: '8.3.0',
+242 silly install resolved        'readline-sync': '1.4.4',
+242 silly install resolved        rewire: '2.5.2',
+242 silly install resolved        rimraf: '2.5.4',
+242 silly install resolved        'semantic-release': '4.3.5',
+242 silly install resolved        'validate-commit-msg': '2.8.0' },
+242 silly install resolved     peerDependencies: { eslint: '^3.7.0' },
+242 silly install resolved     engines: { node: '>=4' },
+242 silly install resolved     keywords: [ 'eslint', 'eslint-plugin', 'eslintplugin', 'meteor' ],
+242 silly install resolved     config: { ghooks: [Object], commitizen: [Object] },
+242 silly install resolved     license: 'MIT',
+242 silly install resolved     contributors: [],
+242 silly install resolved     version: '4.0.1',
+242 silly install resolved     gitHead: '14d1dec21678610c1254e63cd26edec0afb4b462',
+242 silly install resolved     _id: 'eslint-plugin-meteor@4.0.1',
+242 silly install resolved     _shasum: '442ef4fe66f9b21ae40a89826784121150cb17ff',
+242 silly install resolved     _from: 'eslint-plugin-meteor@latest',
+242 silly install resolved     _npmVersion: '3.10.8',
+242 silly install resolved     _nodeVersion: '4.6.0',
+242 silly install resolved     _npmUser: { name: 'dferber90', email: 'dominik.ferber@gmail.com' },
+242 silly install resolved     dist:
+242 silly install resolved      { shasum: '442ef4fe66f9b21ae40a89826784121150cb17ff',
+242 silly install resolved        tarball: 'https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz' },
+242 silly install resolved     maintainers: [ [Object] ],
+242 silly install resolved     _npmOperationalInternal:
+242 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+242 silly install resolved        tmp: 'tmp/eslint-plugin-meteor-4.0.1.tgz_1475656875602_0.511325248517096' },
+242 silly install resolved     directories: {},
+242 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-plugin-meteor/-/eslint-plugin-meteor-4.0.1.tgz',
+242 silly install resolved     readme: 'ERROR: No README data found!' } ]
+243 info install eslint-plugin-meteor@4.0.1 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+244 info installOne eslint-plugin-meteor@4.0.1
+245 verbose installOne of eslint-plugin-meteor to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app not in flight; installing
+246 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+247 verbose lock using /Users/Minako/.npm/_locks/eslint-plugin-meteor-2ed0991029f538ae.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+248 silly install write writing eslint-plugin-meteor 4.0.1 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+249 verbose unbuild node_modules/eslint-plugin-meteor
+250 info preuninstall eslint-plugin-meteor@4.0.1
+251 info uninstall eslint-plugin-meteor@4.0.1
+252 verbose unbuild rmStuff eslint-plugin-meteor@4.0.1 from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules
+253 info postuninstall eslint-plugin-meteor@4.0.1
+254 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+255 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+256 silly vacuum-fs purging /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+257 silly vacuum-fs quitting because other entries in /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules
+258 verbose tar unpack /Users/Minako/.npm/eslint-plugin-meteor/4.0.1/package.tgz
+259 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+260 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor is being purged
+261 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+262 silly gunzTarPerm modes [ '755', '644' ]
+263 silly gunzTarPerm extractEntry package.json
+264 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+265 silly gunzTarPerm extractEntry README.md
+266 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+267 silly gunzTarPerm extractEntry LICENSE
+268 silly gunzTarPerm modified mode [ 'LICENSE', 509, 493 ]
+269 silly gunzTarPerm extractEntry dist/index.js
+270 silly gunzTarPerm modified mode [ 'dist/index.js', 509, 493 ]
+271 silly gunzTarPerm extractEntry dist/rules/audit-argument-checks.js
+272 silly gunzTarPerm modified mode [ 'dist/rules/audit-argument-checks.js', 436, 420 ]
+273 silly gunzTarPerm extractEntry dist/rules/no-dom-lookup-on-created.js
+274 silly gunzTarPerm modified mode [ 'dist/rules/no-dom-lookup-on-created.js', 436, 420 ]
+275 silly gunzTarPerm extractEntry dist/rules/no-session.js
+276 silly gunzTarPerm modified mode [ 'dist/rules/no-session.js', 436, 420 ]
+277 silly gunzTarPerm extractEntry dist/rules/no-template-lifecycle-assignments.js
+278 silly gunzTarPerm modified mode [ 'dist/rules/no-template-lifecycle-assignments.js', 436, 420 ]
+279 silly gunzTarPerm extractEntry dist/rules/eventmap-params.js
+280 silly gunzTarPerm modified mode [ 'dist/rules/eventmap-params.js', 436, 420 ]
+281 silly gunzTarPerm extractEntry dist/rules/no-zero-timeout.js
+282 silly gunzTarPerm modified mode [ 'dist/rules/no-zero-timeout.js', 436, 420 ]
+283 silly gunzTarPerm extractEntry dist/rules/prefer-session-equals.js
+284 silly gunzTarPerm modified mode [ 'dist/rules/prefer-session-equals.js', 436, 420 ]
+285 silly gunzTarPerm extractEntry dist/rules/prefix-eventmap-selectors.js
+286 silly gunzTarPerm modified mode [ 'dist/rules/prefix-eventmap-selectors.js', 436, 420 ]
+287 silly gunzTarPerm extractEntry dist/rules/scope-dom-lookups.js
+288 silly gunzTarPerm modified mode [ 'dist/rules/scope-dom-lookups.js', 436, 420 ]
+289 silly gunzTarPerm extractEntry dist/rules/template-names.js
+290 silly gunzTarPerm modified mode [ 'dist/rules/template-names.js', 436, 420 ]
+291 silly gunzTarPerm extractEntry dist/rules/no-template-parent-data.js
+292 silly gunzTarPerm modified mode [ 'dist/rules/no-template-parent-data.js', 436, 420 ]
+293 silly gunzTarPerm extractEntry dist/util/environment.js
+294 silly gunzTarPerm modified mode [ 'dist/util/environment.js', 436, 420 ]
+295 silly gunzTarPerm extractEntry dist/util/ast/getPropertyName.js
+296 silly gunzTarPerm modified mode [ 'dist/util/ast/getPropertyName.js', 436, 420 ]
+297 silly gunzTarPerm extractEntry dist/util/ast/index.js
+298 silly gunzTarPerm modified mode [ 'dist/util/ast/index.js', 436, 420 ]
+299 silly gunzTarPerm extractEntry dist/util/ast/isFunction.js
+300 silly gunzTarPerm modified mode [ 'dist/util/ast/isFunction.js', 436, 420 ]
+301 silly gunzTarPerm extractEntry dist/util/ast/isMeteorCall.js
+302 silly gunzTarPerm modified mode [ 'dist/util/ast/isMeteorCall.js', 436, 420 ]
+303 silly gunzTarPerm extractEntry dist/util/ast/isMeteorProp.js
+304 silly gunzTarPerm modified mode [ 'dist/util/ast/isMeteorProp.js', 436, 420 ]
+305 silly gunzTarPerm extractEntry dist/util/ast/isTemplateProp.js
+306 silly gunzTarPerm modified mode [ 'dist/util/ast/isTemplateProp.js', 436, 420 ]
+307 silly gunzTarPerm extractEntry dist/util/executors/filterExecutorsByAncestors.js
+308 silly gunzTarPerm modified mode [ 'dist/util/executors/filterExecutorsByAncestors.js', 436, 420 ]
+309 silly gunzTarPerm extractEntry dist/util/executors/getExecutors.js
+310 silly gunzTarPerm modified mode [ 'dist/util/executors/getExecutors.js', 436, 420 ]
+311 silly gunzTarPerm extractEntry dist/util/executors/getExecutorsByEnv.js
+312 silly gunzTarPerm modified mode [ 'dist/util/executors/getExecutorsByEnv.js', 436, 420 ]
+313 silly gunzTarPerm extractEntry dist/util/executors/getExecutorsFromTest.js
+314 silly gunzTarPerm modified mode [ 'dist/util/executors/getExecutorsFromTest.js', 436, 420 ]
+315 silly gunzTarPerm extractEntry dist/util/executors/invert.js
+316 silly gunzTarPerm modified mode [ 'dist/util/executors/invert.js', 436, 420 ]
+317 silly gunzTarPerm extractEntry dist/util/executors/isMeteorBlockOnlyTest.js
+318 silly gunzTarPerm modified mode [ 'dist/util/executors/isMeteorBlockOnlyTest.js', 436, 420 ]
+319 silly gunzTarPerm extractEntry dist/util/executors/sets.js
+320 silly gunzTarPerm modified mode [ 'dist/util/executors/sets.js', 436, 420 ]
+321 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/package.json
+322 info preinstall eslint-plugin-meteor@4.0.1
+323 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/package.json
+324 silly prepareForInstallMany adding babel-register@6.16.3 from eslint-plugin-meteor dependencies
+325 silly prepareForInstallMany adding babel-runtime@6.11.6 from eslint-plugin-meteor dependencies
+326 silly prepareForInstallMany adding lodash.find@4.6.0 from eslint-plugin-meteor dependencies
+327 silly prepareForInstallMany adding lodash.memoize@4.1.2 from eslint-plugin-meteor dependencies
+328 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/package.json
+329 silly cache add args [ 'babel-runtime@6.11.6', null ]
+330 verbose cache add spec babel-runtime@6.11.6
+331 silly cache add parsed spec Result {
+331 silly cache add   raw: 'babel-runtime@6.11.6',
+331 silly cache add   scope: null,
+331 silly cache add   name: 'babel-runtime',
+331 silly cache add   rawSpec: '6.11.6',
+331 silly cache add   spec: '6.11.6',
+331 silly cache add   type: 'version' }
+332 silly addNamed babel-runtime@6.11.6
+333 verbose addNamed "6.11.6" is a plain semver version for babel-runtime
+334 silly mapToRegistry name babel-runtime
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry data Result {
+337 silly mapToRegistry   raw: 'babel-runtime',
+337 silly mapToRegistry   scope: null,
+337 silly mapToRegistry   name: 'babel-runtime',
+337 silly mapToRegistry   rawSpec: '',
+337 silly mapToRegistry   spec: 'latest',
+337 silly mapToRegistry   type: 'tag' }
+338 silly mapToRegistry uri https://registry.npmjs.org/babel-runtime
+339 verbose addNameVersion registry:https://registry.npmjs.org/babel-runtime not in flight; fetching
+340 silly cache add args [ 'lodash.find@4.6.0', null ]
+341 verbose cache add spec lodash.find@4.6.0
+342 silly cache add parsed spec Result {
+342 silly cache add   raw: 'lodash.find@4.6.0',
+342 silly cache add   scope: null,
+342 silly cache add   name: 'lodash.find',
+342 silly cache add   rawSpec: '4.6.0',
+342 silly cache add   spec: '4.6.0',
+342 silly cache add   type: 'version' }
+343 silly addNamed lodash.find@4.6.0
+344 verbose addNamed "4.6.0" is a plain semver version for lodash.find
+345 silly mapToRegistry name lodash.find
+346 silly mapToRegistry using default registry
+347 silly mapToRegistry registry https://registry.npmjs.org/
+348 silly mapToRegistry data Result {
+348 silly mapToRegistry   raw: 'lodash.find',
+348 silly mapToRegistry   scope: null,
+348 silly mapToRegistry   name: 'lodash.find',
+348 silly mapToRegistry   rawSpec: '',
+348 silly mapToRegistry   spec: 'latest',
+348 silly mapToRegistry   type: 'tag' }
+349 silly mapToRegistry uri https://registry.npmjs.org/lodash.find
+350 verbose addNameVersion registry:https://registry.npmjs.org/lodash.find not in flight; fetching
+351 silly cache add args [ 'lodash.memoize@4.1.2', null ]
+352 verbose cache add spec lodash.memoize@4.1.2
+353 silly cache add parsed spec Result {
+353 silly cache add   raw: 'lodash.memoize@4.1.2',
+353 silly cache add   scope: null,
+353 silly cache add   name: 'lodash.memoize',
+353 silly cache add   rawSpec: '4.1.2',
+353 silly cache add   spec: '4.1.2',
+353 silly cache add   type: 'version' }
+354 silly addNamed lodash.memoize@4.1.2
+355 verbose addNamed "4.1.2" is a plain semver version for lodash.memoize
+356 silly mapToRegistry name lodash.memoize
+357 silly mapToRegistry using default registry
+358 silly mapToRegistry registry https://registry.npmjs.org/
+359 silly mapToRegistry data Result {
+359 silly mapToRegistry   raw: 'lodash.memoize',
+359 silly mapToRegistry   scope: null,
+359 silly mapToRegistry   name: 'lodash.memoize',
+359 silly mapToRegistry   rawSpec: '',
+359 silly mapToRegistry   spec: 'latest',
+359 silly mapToRegistry   type: 'tag' }
+360 silly mapToRegistry uri https://registry.npmjs.org/lodash.memoize
+361 verbose addNameVersion registry:https://registry.npmjs.org/lodash.memoize not in flight; fetching
+362 silly cache add args [ 'babel-register@6.16.3', null ]
+363 verbose cache add spec babel-register@6.16.3
+364 silly cache add parsed spec Result {
+364 silly cache add   raw: 'babel-register@6.16.3',
+364 silly cache add   scope: null,
+364 silly cache add   name: 'babel-register',
+364 silly cache add   rawSpec: '6.16.3',
+364 silly cache add   spec: '6.16.3',
+364 silly cache add   type: 'version' }
+365 silly addNamed babel-register@6.16.3
+366 verbose addNamed "6.16.3" is a plain semver version for babel-register
+367 silly mapToRegistry name babel-register
+368 silly mapToRegistry using default registry
+369 silly mapToRegistry registry https://registry.npmjs.org/
+370 silly mapToRegistry data Result {
+370 silly mapToRegistry   raw: 'babel-register',
+370 silly mapToRegistry   scope: null,
+370 silly mapToRegistry   name: 'babel-register',
+370 silly mapToRegistry   rawSpec: '',
+370 silly mapToRegistry   spec: 'latest',
+370 silly mapToRegistry   type: 'tag' }
+371 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+372 verbose addNameVersion registry:https://registry.npmjs.org/babel-register not in flight; fetching
+373 verbose request uri https://registry.npmjs.org/lodash.find
+374 verbose request no auth needed
+375 info attempt registry request try #1 at 1:51:37 AM
+376 verbose etag "1PJKUGU45H2HV26A8AAWZ9QUH"
+377 http request GET https://registry.npmjs.org/lodash.find
+378 verbose request uri https://registry.npmjs.org/lodash.memoize
+379 verbose request no auth needed
+380 info attempt registry request try #1 at 1:51:37 AM
+381 verbose etag "1IYDI88LPO6T1MHFU8XTSS84W"
+382 http request GET https://registry.npmjs.org/lodash.memoize
+383 verbose request uri https://registry.npmjs.org/babel-register
+384 verbose request no auth needed
+385 info attempt registry request try #1 at 1:51:37 AM
+386 verbose etag "AP4XDPBZ0U2MBYFXZZJA2Y5WF"
+387 http request GET https://registry.npmjs.org/babel-register
+388 verbose request uri https://registry.npmjs.org/babel-runtime
 389 verbose request no auth needed
-390 info attempt registry request try #1 at 10:42:58 PM
-391 verbose etag "1PJKUGU45H2HV26A8AAWZ9QUH"
-392 http request GET https://registry.npmjs.org/lodash.find
-393 verbose request uri https://registry.npmjs.org/lodash.memoize
-394 verbose request no auth needed
-395 info attempt registry request try #1 at 10:42:58 PM
-396 verbose etag "1IYDI88LPO6T1MHFU8XTSS84W"
-397 http request GET https://registry.npmjs.org/lodash.memoize
-398 verbose request uri https://registry.npmjs.org/babel-register
-399 verbose request no auth needed
-400 info attempt registry request try #1 at 10:42:58 PM
-401 verbose etag "AP4XDPBZ0U2MBYFXZZJA2Y5WF"
-402 http request GET https://registry.npmjs.org/babel-register
-403 verbose request uri https://registry.npmjs.org/babel-runtime
-404 verbose request no auth needed
-405 info attempt registry request try #1 at 10:42:58 PM
-406 verbose etag "8SNHIBE4FPSX0TRHAFAXH05ND"
-407 http request GET https://registry.npmjs.org/babel-runtime
-408 http 304 https://registry.npmjs.org/lodash.find
-409 verbose headers { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-409 verbose headers   via: '1.1 varnish',
-409 verbose headers   'cache-control': 'max-age=300',
-409 verbose headers   etag: '"1PJKUGU45H2HV26A8AAWZ9QUH"',
-409 verbose headers   age: '71',
-409 verbose headers   connection: 'keep-alive',
-409 verbose headers   'x-served-by': 'cache-sjc3628-SJC',
-409 verbose headers   'x-cache': 'HIT',
-409 verbose headers   'x-cache-hits': '1',
-409 verbose headers   'x-timer': 'S1477298578.425490,VS0,VE0',
-409 verbose headers   vary: 'Accept-Encoding' }
-410 silly get cb [ 304,
-410 silly get   { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-410 silly get     via: '1.1 varnish',
-410 silly get     'cache-control': 'max-age=300',
-410 silly get     etag: '"1PJKUGU45H2HV26A8AAWZ9QUH"',
-410 silly get     age: '71',
-410 silly get     connection: 'keep-alive',
-410 silly get     'x-served-by': 'cache-sjc3628-SJC',
-410 silly get     'x-cache': 'HIT',
-410 silly get     'x-cache-hits': '1',
-410 silly get     'x-timer': 'S1477298578.425490,VS0,VE0',
-410 silly get     vary: 'Accept-Encoding' } ]
-411 verbose etag https://registry.npmjs.org/lodash.find from cache
-412 verbose get saving lodash.find to /Users/Minako/.npm/registry.npmjs.org/lodash.find/.cache.json
-413 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-414 silly cache afterAdd lodash.find@4.6.0
-415 verbose afterAdd /Users/Minako/.npm/lodash.find/4.6.0/package/package.json not in flight; writing
-416 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-417 verbose afterAdd /Users/Minako/.npm/lodash.find/4.6.0/package/package.json written
-418 http 304 https://registry.npmjs.org/babel-register
-419 verbose headers { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-419 verbose headers   via: '1.1 varnish',
-419 verbose headers   'cache-control': 'max-age=300',
-419 verbose headers   etag: '"AP4XDPBZ0U2MBYFXZZJA2Y5WF"',
-419 verbose headers   age: '98',
-419 verbose headers   connection: 'keep-alive',
-419 verbose headers   'x-served-by': 'cache-sjc3639-SJC',
-419 verbose headers   'x-cache': 'HIT',
-419 verbose headers   'x-cache-hits': '1',
-419 verbose headers   'x-timer': 'S1477298578.569536,VS0,VE0',
-419 verbose headers   vary: 'Accept-Encoding' }
-420 silly get cb [ 304,
-420 silly get   { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-420 silly get     via: '1.1 varnish',
-420 silly get     'cache-control': 'max-age=300',
-420 silly get     etag: '"AP4XDPBZ0U2MBYFXZZJA2Y5WF"',
-420 silly get     age: '98',
-420 silly get     connection: 'keep-alive',
-420 silly get     'x-served-by': 'cache-sjc3639-SJC',
-420 silly get     'x-cache': 'HIT',
-420 silly get     'x-cache-hits': '1',
-420 silly get     'x-timer': 'S1477298578.569536,VS0,VE0',
-420 silly get     vary: 'Accept-Encoding' } ]
-421 verbose etag https://registry.npmjs.org/babel-register from cache
-422 verbose get saving babel-register to /Users/Minako/.npm/registry.npmjs.org/babel-register/.cache.json
-423 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-424 silly cache afterAdd babel-register@6.16.3
-425 verbose afterAdd /Users/Minako/.npm/babel-register/6.16.3/package/package.json not in flight; writing
-426 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-427 verbose afterAdd /Users/Minako/.npm/babel-register/6.16.3/package/package.json written
-428 http 304 https://registry.npmjs.org/babel-runtime
-429 verbose headers { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-429 verbose headers   via: '1.1 varnish',
-429 verbose headers   'cache-control': 'max-age=300',
-429 verbose headers   etag: '"8SNHIBE4FPSX0TRHAFAXH05ND"',
-429 verbose headers   age: '2',
-429 verbose headers   connection: 'keep-alive',
-429 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
-429 verbose headers   'x-cache': 'HIT',
-429 verbose headers   'x-cache-hits': '1',
-429 verbose headers   'x-timer': 'S1477298578.581173,VS0,VE0',
-429 verbose headers   vary: 'Accept-Encoding' }
-430 silly get cb [ 304,
-430 silly get   { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-430 silly get     via: '1.1 varnish',
-430 silly get     'cache-control': 'max-age=300',
-430 silly get     etag: '"8SNHIBE4FPSX0TRHAFAXH05ND"',
-430 silly get     age: '2',
-430 silly get     connection: 'keep-alive',
-430 silly get     'x-served-by': 'cache-sjc3125-SJC',
-430 silly get     'x-cache': 'HIT',
-430 silly get     'x-cache-hits': '1',
-430 silly get     'x-timer': 'S1477298578.581173,VS0,VE0',
-430 silly get     vary: 'Accept-Encoding' } ]
-431 verbose etag https://registry.npmjs.org/babel-runtime from cache
-432 verbose get saving babel-runtime to /Users/Minako/.npm/registry.npmjs.org/babel-runtime/.cache.json
-433 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-434 silly cache afterAdd babel-runtime@6.11.6
-435 verbose afterAdd /Users/Minako/.npm/babel-runtime/6.11.6/package/package.json not in flight; writing
-436 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-437 verbose afterAdd /Users/Minako/.npm/babel-runtime/6.11.6/package/package.json written
-438 http 304 https://registry.npmjs.org/lodash.memoize
-439 verbose headers { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-439 verbose headers   via: '1.1 varnish',
-439 verbose headers   'cache-control': 'max-age=300',
-439 verbose headers   etag: '"1IYDI88LPO6T1MHFU8XTSS84W"',
-439 verbose headers   age: '0',
-439 verbose headers   connection: 'keep-alive',
-439 verbose headers   'x-served-by': 'cache-sjc3136-SJC',
-439 verbose headers   'x-cache': 'HIT',
-439 verbose headers   'x-cache-hits': '1',
-439 verbose headers   'x-timer': 'S1477298578.562760,VS0,VE364',
-439 verbose headers   vary: 'Accept-Encoding' }
-440 silly get cb [ 304,
-440 silly get   { date: 'Mon, 24 Oct 2016 08:42:58 GMT',
-440 silly get     via: '1.1 varnish',
-440 silly get     'cache-control': 'max-age=300',
-440 silly get     etag: '"1IYDI88LPO6T1MHFU8XTSS84W"',
-440 silly get     age: '0',
-440 silly get     connection: 'keep-alive',
-440 silly get     'x-served-by': 'cache-sjc3136-SJC',
-440 silly get     'x-cache': 'HIT',
-440 silly get     'x-cache-hits': '1',
-440 silly get     'x-timer': 'S1477298578.562760,VS0,VE364',
-440 silly get     vary: 'Accept-Encoding' } ]
-441 verbose etag https://registry.npmjs.org/lodash.memoize from cache
-442 verbose get saving lodash.memoize to /Users/Minako/.npm/registry.npmjs.org/lodash.memoize/.cache.json
-443 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-444 silly mapToRegistry name lodash.memoize
-445 silly mapToRegistry using default registry
-446 silly mapToRegistry registry https://registry.npmjs.org/
-447 silly mapToRegistry data Result {
-447 silly mapToRegistry   raw: 'lodash.memoize',
-447 silly mapToRegistry   scope: null,
-447 silly mapToRegistry   name: 'lodash.memoize',
-447 silly mapToRegistry   rawSpec: '',
-447 silly mapToRegistry   spec: 'latest',
-447 silly mapToRegistry   type: 'tag' }
-448 silly mapToRegistry uri https://registry.npmjs.org/lodash.memoize
-449 verbose addRemoteTarball https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz not in flight; adding
-450 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz',
-450 verbose addRemoteTarball   'bcc6c49a42a2840ed997f323eada5ecd182e0bfe' ]
-451 info retry fetch attempt 1 at 10:42:59 PM
-452 info attempt registry request try #1 at 10:42:59 PM
-453 http fetch GET https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz
-454 http fetch 200 https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz
-455 silly fetchAndShaCheck shasum bcc6c49a42a2840ed997f323eada5ecd182e0bfe
-456 verbose addTmpTarball /var/folders/n8/sg6vhnln6ng63sxlk8mlkhdr0000gn/T/npm-51469-e6977de2/registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz not in flight; adding
-457 verbose addTmpTarball already have metadata; skipping unpack for lodash.memoize@4.1.2
-458 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-459 silly cache afterAdd lodash.memoize@4.1.2
-460 verbose afterAdd /Users/Minako/.npm/lodash.memoize/4.1.2/package/package.json not in flight; writing
-461 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-462 verbose afterAdd /Users/Minako/.npm/lodash.memoize/4.1.2/package/package.json written
-463 silly install resolved [ { name: 'lodash.find',
-463 silly install resolved     version: '4.6.0',
-463 silly install resolved     description: 'The lodash method `_.find` exported as a module.',
-463 silly install resolved     homepage: 'https://lodash.com/',
-463 silly install resolved     icon: 'https://lodash.com/icon.svg',
-463 silly install resolved     license: 'MIT',
-463 silly install resolved     keywords: [ 'lodash-modularized', 'find' ],
-463 silly install resolved     author:
-463 silly install resolved      { name: 'John-David Dalton',
-463 silly install resolved        email: 'john.david.dalton@gmail.com',
-463 silly install resolved        url: 'http://allyoucanleet.com/' },
-463 silly install resolved     contributors: [ [Object], [Object], [Object] ],
-463 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
-463 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
-463 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
-463 silly install resolved     _id: 'lodash.find@4.6.0',
-463 silly install resolved     _shasum: 'cb0704d47ab71789ffa0de8b97dd926fb88b13b1',
-463 silly install resolved     _from: 'lodash.find@4.6.0',
-463 silly install resolved     _npmVersion: '2.15.10',
-463 silly install resolved     _nodeVersion: '4.4.7',
-463 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
-463 silly install resolved     dist:
-463 silly install resolved      { shasum: 'cb0704d47ab71789ffa0de8b97dd926fb88b13b1',
-463 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.find/-/lodash.find-4.6.0.tgz' },
-463 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
-463 silly install resolved     _npmOperationalInternal:
-463 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
-463 silly install resolved        tmp: 'tmp/lodash.find-4.6.0.tgz_1471109903048_0.12996025383472443' },
-463 silly install resolved     directories: {},
-463 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.find/-/lodash.find-4.6.0.tgz',
-463 silly install resolved     readme: 'ERROR: No README data found!' },
-463 silly install resolved   { name: 'babel-register',
-463 silly install resolved     version: '6.16.3',
-463 silly install resolved     description: 'babel require hook',
-463 silly install resolved     license: 'MIT',
-463 silly install resolved     repository:
-463 silly install resolved      { type: 'git',
-463 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-register' },
-463 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
-463 silly install resolved     main: 'lib/node.js',
-463 silly install resolved     browser: 'lib/browser.js',
-463 silly install resolved     dependencies:
-463 silly install resolved      { 'babel-core': '^6.16.0',
-463 silly install resolved        'babel-runtime': '^6.11.6',
-463 silly install resolved        'core-js': '^2.4.0',
-463 silly install resolved        'home-or-tmp': '^1.0.0',
-463 silly install resolved        lodash: '^4.2.0',
-463 silly install resolved        mkdirp: '^0.5.1',
-463 silly install resolved        'path-exists': '^1.0.0',
-463 silly install resolved        'source-map-support': '^0.4.2' },
-463 silly install resolved     _id: 'babel-register@6.16.3',
-463 silly install resolved     scripts: {},
-463 silly install resolved     _shasum: '7b0c0ca7bfdeb9188ba4c27e5fcb7599a497c624',
-463 silly install resolved     _from: 'babel-register@6.16.3',
-463 silly install resolved     _npmVersion: '3.10.8',
-463 silly install resolved     _nodeVersion: '5.11.1',
-463 silly install resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
-463 silly install resolved     dist:
-463 silly install resolved      { shasum: '7b0c0ca7bfdeb9188ba4c27e5fcb7599a497c624',
-463 silly install resolved        tarball: 'https://registry.npmjs.org/babel-register/-/babel-register-6.16.3.tgz' },
-463 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
-463 silly install resolved     _npmOperationalInternal:
-463 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
-463 silly install resolved        tmp: 'tmp/babel-register-6.16.3.tgz_1475164015371_0.4618200524710119' },
-463 silly install resolved     directories: {},
-463 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-register/-/babel-register-6.16.3.tgz',
-463 silly install resolved     readme: 'ERROR: No README data found!' },
-463 silly install resolved   { name: 'babel-runtime',
-463 silly install resolved     version: '6.11.6',
-463 silly install resolved     description: 'babel selfContained runtime',
-463 silly install resolved     license: 'MIT',
-463 silly install resolved     repository:
-463 silly install resolved      { type: 'git',
-463 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-runtime' },
-463 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
-463 silly install resolved     dependencies: { 'core-js': '^2.4.0', 'regenerator-runtime': '^0.9.5' },
-463 silly install resolved     devDependencies:
-463 silly install resolved      { 'babel-helpers': '^6.6.0',
-463 silly install resolved        'babel-plugin-transform-runtime': '^6.9.0' },
-463 silly install resolved     _id: 'babel-runtime@6.11.6',
-463 silly install resolved     scripts: {},
-463 silly install resolved     _shasum: '6db707fef2d49c49bfa3cb64efdb436b518b8222',
-463 silly install resolved     _from: 'babel-runtime@6.11.6',
-463 silly install resolved     _npmVersion: '3.10.3',
-463 silly install resolved     _nodeVersion: '5.11.1',
-463 silly install resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
-463 silly install resolved     dist:
-463 silly install resolved      { shasum: '6db707fef2d49c49bfa3cb64efdb436b518b8222',
-463 silly install resolved        tarball: 'https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.11.6.tgz' },
-463 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
-463 silly install resolved     _npmOperationalInternal:
-463 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
-463 silly install resolved        tmp: 'tmp/babel-runtime-6.11.6.tgz_1469571147362_0.24374734237790108' },
-463 silly install resolved     directories: {},
-463 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.11.6.tgz',
-463 silly install resolved     readme: 'ERROR: No README data found!' },
-463 silly install resolved   { name: 'lodash.memoize',
-463 silly install resolved     version: '4.1.2',
-463 silly install resolved     description: 'The lodash method `_.memoize` exported as a module.',
-463 silly install resolved     homepage: 'https://lodash.com/',
-463 silly install resolved     icon: 'https://lodash.com/icon.svg',
-463 silly install resolved     license: 'MIT',
-463 silly install resolved     keywords: [ 'lodash-modularized', 'memoize' ],
-463 silly install resolved     author:
-463 silly install resolved      { name: 'John-David Dalton',
-463 silly install resolved        email: 'john.david.dalton@gmail.com',
-463 silly install resolved        url: 'http://allyoucanleet.com/' },
-463 silly install resolved     contributors: [ [Object], [Object], [Object] ],
-463 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
-463 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
-463 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
-463 silly install resolved     _id: 'lodash.memoize@4.1.2',
-463 silly install resolved     _shasum: 'bcc6c49a42a2840ed997f323eada5ecd182e0bfe',
-463 silly install resolved     _from: 'lodash.memoize@4.1.2',
-463 silly install resolved     _npmVersion: '2.15.10',
-463 silly install resolved     _nodeVersion: '4.4.7',
-463 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
-463 silly install resolved     dist:
-463 silly install resolved      { shasum: 'bcc6c49a42a2840ed997f323eada5ecd182e0bfe',
-463 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz' },
-463 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
-463 silly install resolved     _npmOperationalInternal:
-463 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
-463 silly install resolved        tmp: 'tmp/lodash.memoize-4.1.2.tgz_1471110128677_0.1628954140469432' },
-463 silly install resolved     directories: {},
-463 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz' } ]
-464 info install lodash.find@4.6.0 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-465 info install babel-register@6.16.3 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-466 info install babel-runtime@6.11.6 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-467 info install lodash.memoize@4.1.2 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-468 info installOne lodash.find@4.6.0
-469 verbose installOne of lodash.find to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
-470 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-471 info installOne babel-register@6.16.3
-472 verbose installOne of babel-register to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
-473 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-474 info installOne babel-runtime@6.11.6
-475 verbose installOne of babel-runtime to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
-476 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-477 info installOne lodash.memoize@4.1.2
-478 verbose installOne of lodash.memoize to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
-479 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-480 verbose lock using /Users/Minako/.npm/_locks/lodash-find-7224c64916b25dfb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-481 verbose lock using /Users/Minako/.npm/_locks/babel-register-bdca4dc0189c5195.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-482 silly install write writing lodash.find 4.6.0 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-483 silly install write writing babel-register 6.16.3 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-484 verbose lock using /Users/Minako/.npm/_locks/babel-runtime-fb32e97207da3282.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-485 verbose lock using /Users/Minako/.npm/_locks/lodash-memoize-d46587bf717c6a14.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-486 silly install write writing babel-runtime 6.11.6 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-487 silly install write writing lodash.memoize 4.1.2 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-488 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/lodash.find
-489 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-register
-490 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-491 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-492 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-493 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-494 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-495 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-496 verbose tar unpack /Users/Minako/.npm/lodash.find/4.6.0/package.tgz
-497 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-498 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find is being purged
-499 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-500 verbose tar unpack /Users/Minako/.npm/babel-register/6.16.3/package.tgz
-501 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-502 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register is being purged
-503 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-504 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-505 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-506 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-507 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-508 silly gunzTarPerm modes [ '755', '644' ]
-509 silly gunzTarPerm modes [ '755', '644' ]
-510 verbose tar unpack /Users/Minako/.npm/babel-runtime/6.11.6/package.tgz
-511 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-512 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime is being purged
-513 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-514 verbose tar unpack /Users/Minako/.npm/lodash.memoize/4.1.2/package.tgz
-515 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-516 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize is being purged
-517 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-518 silly gunzTarPerm modes [ '755', '644' ]
-519 silly gunzTarPerm modes [ '755', '644' ]
-520 silly gunzTarPerm extractEntry package.json
-521 silly gunzTarPerm extractEntry package.json
-522 silly gunzTarPerm extractEntry package.json
-523 silly gunzTarPerm extractEntry package.json
-524 silly gunzTarPerm extractEntry README.md
-525 silly gunzTarPerm extractEntry LICENSE
-526 silly gunzTarPerm extractEntry .npmignore
-527 silly gunzTarPerm extractEntry README.md
-528 silly gunzTarPerm extractEntry .npmignore
-529 silly gunzTarPerm extractEntry README.md
-530 silly gunzTarPerm extractEntry README.md
-531 silly gunzTarPerm extractEntry LICENSE
-532 silly gunzTarPerm extractEntry index.js
-533 silly gunzTarPerm extractEntry core-js.js
-534 silly gunzTarPerm extractEntry core-js/weak-set.js
-535 silly gunzTarPerm extractEntry lib/browser.js
-536 silly gunzTarPerm extractEntry lib/cache.js
-537 silly gunzTarPerm extractEntry index.js
-538 silly gunzTarPerm extractEntry core-js/weak-map.js
-539 silly gunzTarPerm extractEntry core-js/get-iterator.js
-540 silly gunzTarPerm extractEntry lib/node.js
-541 silly gunzTarPerm extractEntry core-js/is-iterable.js
-542 silly gunzTarPerm extractEntry core-js/clear-immediate.js
-543 silly gunzTarPerm extractEntry core-js/map.js
-544 silly gunzTarPerm extractEntry core-js/set.js
-545 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize/package.json
-546 silly gunzTarPerm extractEntry core-js/set-immediate.js
-547 silly gunzTarPerm extractEntry core-js/promise.js
-548 info preinstall lodash.memoize@4.1.2
-549 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find/package.json
-550 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize/package.json
-551 silly gunzTarPerm extractEntry core-js/asap.js
-552 silly gunzTarPerm extractEntry core-js/symbol.js
-553 info preinstall lodash.find@4.6.0
-554 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find/package.json
-555 silly gunzTarPerm extractEntry core-js/observable.js
-556 silly gunzTarPerm extractEntry core-js/string/at.js
-557 silly gunzTarPerm extractEntry core-js/string/match-all.js
-558 silly gunzTarPerm extractEntry core-js/string/pad-end.js
-559 silly gunzTarPerm extractEntry core-js/string/pad-left.js
-560 silly gunzTarPerm extractEntry core-js/string/pad-right.js
-561 silly gunzTarPerm extractEntry core-js/string/includes.js
-562 silly gunzTarPerm extractEntry core-js/string/raw.js
-563 silly gunzTarPerm extractEntry core-js/string/repeat.js
-564 silly gunzTarPerm extractEntry core-js/string/starts-with.js
-565 silly gunzTarPerm extractEntry core-js/string/trim-end.js
-566 silly gunzTarPerm extractEntry core-js/string/trim-left.js
-567 silly gunzTarPerm extractEntry core-js/string/from-code-point.js
-568 silly gunzTarPerm extractEntry core-js/string/trim-right.js
-569 silly gunzTarPerm extractEntry core-js/string/ends-with.js
-570 silly gunzTarPerm extractEntry core-js/string/trim-start.js
-571 silly gunzTarPerm extractEntry core-js/string/code-point-at.js
-572 silly gunzTarPerm extractEntry core-js/string/trim.js
-573 silly gunzTarPerm extractEntry core-js/string/pad-start.js
-574 silly gunzTarPerm extractEntry core-js/object/assign.js
-575 silly gunzTarPerm extractEntry core-js/object/get-own-property-descriptor.js
-576 silly gunzTarPerm extractEntry core-js/object/get-own-property-descriptors.js
-577 silly gunzTarPerm extractEntry core-js/object/get-own-property-names.js
-578 silly gunzTarPerm extractEntry core-js/object/get-own-property-symbols.js
-579 silly gunzTarPerm extractEntry core-js/object/freeze.js
-580 silly gunzTarPerm extractEntry core-js/object/is-extensible.js
-581 silly gunzTarPerm extractEntry core-js/object/is-frozen.js
-582 silly gunzTarPerm extractEntry core-js/object/is-sealed.js
-583 silly gunzTarPerm extractEntry core-js/object/is.js
-584 silly gunzTarPerm extractEntry core-js/object/keys.js
-585 silly gunzTarPerm extractEntry core-js/object/entries.js
-586 silly gunzTarPerm extractEntry core-js/object/prevent-extensions.js
-587 silly gunzTarPerm extractEntry core-js/object/define-property.js
-588 silly gunzTarPerm extractEntry core-js/object/seal.js
-589 silly gunzTarPerm extractEntry core-js/object/define-properties.js
-590 silly gunzTarPerm extractEntry core-js/object/set-prototype-of.js
-591 silly gunzTarPerm extractEntry core-js/object/create.js
-592 silly gunzTarPerm extractEntry core-js/object/values.js
-593 silly gunzTarPerm extractEntry core-js/object/get-prototype-of.js
-594 silly gunzTarPerm extractEntry core-js/regexp/escape.js
-595 silly gunzTarPerm extractEntry core-js/number/epsilon.js
-596 silly gunzTarPerm extractEntry core-js/number/is-finite.js
-597 silly gunzTarPerm extractEntry core-js/number/is-integer.js
-598 silly gunzTarPerm extractEntry core-js/number/is-nan.js
-599 silly gunzTarPerm extractEntry core-js/number/is-safe-integer.js
-600 silly gunzTarPerm extractEntry core-js/number/max-safe-integer.js
-601 silly gunzTarPerm extractEntry core-js/number/min-safe-integer.js
-602 silly gunzTarPerm extractEntry core-js/number/parse-float.js
-603 silly gunzTarPerm extractEntry core-js/number/parse-int.js
-604 silly gunzTarPerm extractEntry core-js/math/acosh.js
-605 silly gunzTarPerm extractEntry core-js/math/fround.js
-606 silly gunzTarPerm extractEntry core-js/math/hypot.js
-607 silly gunzTarPerm extractEntry core-js/math/iaddh.js
-608 silly gunzTarPerm extractEntry core-js/math/expm1.js
-609 silly gunzTarPerm extractEntry core-js/math/imulh.js
-610 silly gunzTarPerm extractEntry core-js/math/isubh.js
-611 silly gunzTarPerm extractEntry core-js/math/log10.js
-612 silly gunzTarPerm extractEntry core-js/math/log1p.js
-613 silly gunzTarPerm extractEntry core-js/math/log2.js
-614 silly gunzTarPerm extractEntry core-js/math/cosh.js
-615 silly gunzTarPerm extractEntry core-js/math/sign.js
-616 silly gunzTarPerm extractEntry core-js/math/clz32.js
-617 silly gunzTarPerm extractEntry core-js/math/sinh.js
-618 silly gunzTarPerm extractEntry core-js/math/cbrt.js
-619 silly gunzTarPerm extractEntry core-js/math/tanh.js
-620 silly gunzTarPerm extractEntry core-js/math/atanh.js
-621 silly gunzTarPerm extractEntry core-js/math/trunc.js
-622 silly gunzTarPerm extractEntry core-js/math/asinh.js
-623 silly gunzTarPerm extractEntry core-js/math/umulh.js
-624 silly gunzTarPerm extractEntry core-js/math/imul.js
-625 silly gunzTarPerm extractEntry core-js/reflect/apply.js
-626 silly gunzTarPerm extractEntry core-js/reflect/get-metadata.js
-627 silly gunzTarPerm extractEntry core-js/reflect/get-own-metadata-keys.js
-628 silly gunzTarPerm extractEntry core-js/reflect/get-own-metadata.js
-629 silly gunzTarPerm extractEntry core-js/reflect/get-metadata-keys.js
-630 silly gunzTarPerm extractEntry core-js/reflect/get-prototype-of.js
-631 silly gunzTarPerm extractEntry core-js/reflect/get.js
-632 silly gunzTarPerm extractEntry core-js/reflect/has-metadata.js
-633 silly gunzTarPerm extractEntry core-js/reflect/has-own-metadata.js
-634 silly gunzTarPerm extractEntry core-js/reflect/has.js
-635 silly gunzTarPerm extractEntry core-js/reflect/enumerate.js
-636 silly gunzTarPerm extractEntry core-js/reflect/is-extensible.js
-637 silly gunzTarPerm extractEntry core-js/reflect/delete-property.js
-638 silly gunzTarPerm extractEntry core-js/reflect/metadata.js
-639 silly gunzTarPerm extractEntry core-js/reflect/delete-metadata.js
-640 silly gunzTarPerm extractEntry core-js/reflect/own-keys.js
-641 silly gunzTarPerm extractEntry core-js/reflect/define-property.js
-642 silly gunzTarPerm extractEntry core-js/reflect/prevent-extensions.js
-643 silly gunzTarPerm extractEntry core-js/reflect/define-metadata.js
-644 silly gunzTarPerm extractEntry core-js/reflect/set-prototype-of.js
-645 silly gunzTarPerm extractEntry core-js/reflect/construct.js
-646 silly gunzTarPerm extractEntry core-js/reflect/set.js
-647 silly gunzTarPerm extractEntry core-js/reflect/get-own-property-descriptor.js
-648 silly gunzTarPerm extractEntry core-js/symbol/async-iterator.js
-649 silly gunzTarPerm extractEntry core-js/symbol/iterator.js
-650 silly gunzTarPerm extractEntry core-js/symbol/key-for.js
-651 silly gunzTarPerm extractEntry core-js/symbol/match.js
-652 silly gunzTarPerm extractEntry core-js/symbol/is-concat-spreadable.js
-653 silly gunzTarPerm extractEntry core-js/symbol/replace.js
-654 silly gunzTarPerm extractEntry core-js/symbol/search.js
-655 silly gunzTarPerm extractEntry core-js/symbol/species.js
-656 silly gunzTarPerm extractEntry core-js/symbol/split.js
-657 silly gunzTarPerm extractEntry core-js/symbol/to-primitive.js
-658 silly gunzTarPerm extractEntry core-js/symbol/has-instance.js
-659 silly gunzTarPerm extractEntry core-js/symbol/to-string-tag.js
-660 silly gunzTarPerm extractEntry core-js/symbol/for.js
-661 silly gunzTarPerm extractEntry core-js/symbol/unscopables.js
-662 silly gunzTarPerm extractEntry core-js/symbol/observable.js
-663 silly gunzTarPerm extractEntry core-js/json/stringify.js
-664 silly gunzTarPerm extractEntry core-js/system/global.js
-665 silly gunzTarPerm extractEntry core-js/error/is-error.js
-666 silly gunzTarPerm extractEntry core-js/array/concat.js
-667 silly gunzTarPerm extractEntry core-js/array/index-of.js
-668 silly gunzTarPerm extractEntry core-js/array/join.js
-669 silly gunzTarPerm extractEntry core-js/array/keys.js
-670 silly gunzTarPerm extractEntry core-js/array/includes.js
-671 silly gunzTarPerm extractEntry core-js/array/map.js
-672 silly gunzTarPerm extractEntry core-js/array/of.js
-673 silly gunzTarPerm extractEntry core-js/array/pop.js
-674 silly gunzTarPerm extractEntry core-js/array/push.js
-675 silly gunzTarPerm extractEntry core-js/array/reduce-right.js
-676 silly gunzTarPerm extractEntry core-js/array/from.js
-677 silly gunzTarPerm extractEntry core-js/array/reduce.js
-678 silly gunzTarPerm extractEntry core-js/array/for-each.js
-679 silly gunzTarPerm extractEntry core-js/array/reverse.js
-680 silly gunzTarPerm extractEntry core-js/array/find.js
-681 silly gunzTarPerm extractEntry core-js/array/shift.js
-682 silly gunzTarPerm extractEntry core-js/array/find-index.js
-683 silly gunzTarPerm extractEntry core-js/array/slice.js
-684 silly gunzTarPerm extractEntry core-js/array/filter.js
-685 silly gunzTarPerm extractEntry core-js/array/some.js
-686 silly gunzTarPerm extractEntry core-js/array/fill.js
-687 silly gunzTarPerm extractEntry core-js/array/sort.js
-688 silly gunzTarPerm extractEntry core-js/array/every.js
-689 silly gunzTarPerm extractEntry core-js/array/splice.js
-690 silly gunzTarPerm extractEntry core-js/array/entries.js
-691 silly gunzTarPerm extractEntry core-js/array/unshift.js
-692 silly gunzTarPerm extractEntry core-js/array/copy-within.js
-693 silly gunzTarPerm extractEntry core-js/array/values.js
-694 silly gunzTarPerm extractEntry core-js/array/last-index-of.js
-695 silly gunzTarPerm extractEntry helpers/_async-to-generator.js
-696 silly gunzTarPerm extractEntry helpers/defaults.js
-697 silly gunzTarPerm extractEntry helpers/define-enumerable-properties.js
-698 silly gunzTarPerm extractEntry helpers/define-property.js
-699 silly gunzTarPerm extractEntry helpers/defineEnumerableProperties.js
-700 silly gunzTarPerm extractEntry helpers/createClass.js
-701 silly gunzTarPerm extractEntry helpers/extends.js
-702 silly gunzTarPerm extractEntry helpers/get.js
-703 silly gunzTarPerm extractEntry helpers/inherits.js
-704 silly gunzTarPerm extractEntry helpers/instanceof.js
-705 silly gunzTarPerm extractEntry helpers/interop-require-default.js
-706 silly gunzTarPerm extractEntry helpers/create-class.js
-707 silly gunzTarPerm extractEntry helpers/interop-require-wildcard.js
-708 silly gunzTarPerm extractEntry helpers/classCallCheck.js
-709 silly gunzTarPerm extractEntry helpers/interopRequireDefault.js
-710 silly gunzTarPerm extractEntry helpers/class-call-check.js
-711 silly gunzTarPerm extractEntry helpers/interopRequireWildcard.js
-712 silly gunzTarPerm extractEntry helpers/asyncToGenerator.js
-713 silly gunzTarPerm extractEntry helpers/jsx.js
-714 silly gunzTarPerm extractEntry helpers/async-to-generator.js
-715 silly gunzTarPerm extractEntry helpers/new-arrow-check.js
-716 silly gunzTarPerm extractEntry helpers/_typeof.js
-717 silly gunzTarPerm extractEntry helpers/newArrowCheck.js
-718 silly gunzTarPerm extractEntry helpers/_to-consumable-array.js
-719 silly gunzTarPerm extractEntry helpers/object-destructuring-empty.js
-720 silly gunzTarPerm extractEntry helpers/_to-array.js
-721 silly gunzTarPerm extractEntry helpers/object-without-properties.js
-722 silly gunzTarPerm extractEntry helpers/_temporal-undefined.js
-723 silly gunzTarPerm extractEntry helpers/objectDestructuringEmpty.js
-724 silly gunzTarPerm extractEntry helpers/_temporal-ref.js
-725 silly gunzTarPerm extractEntry helpers/objectWithoutProperties.js
-726 silly gunzTarPerm extractEntry helpers/_tagged-template-literal.js
-727 silly gunzTarPerm extractEntry helpers/possible-constructor-return.js
-728 silly gunzTarPerm extractEntry helpers/_tagged-template-literal-loose.js
-729 silly gunzTarPerm extractEntry helpers/possibleConstructorReturn.js
-730 silly gunzTarPerm extractEntry helpers/_sliced-to-array.js
-731 silly gunzTarPerm extractEntry helpers/self-global.js
-732 silly gunzTarPerm extractEntry helpers/_sliced-to-array-loose.js
-733 silly gunzTarPerm extractEntry helpers/selfGlobal.js
-734 silly gunzTarPerm extractEntry helpers/_set.js
-735 silly gunzTarPerm extractEntry helpers/set.js
-736 silly gunzTarPerm extractEntry helpers/_self-global.js
-737 silly gunzTarPerm extractEntry helpers/sliced-to-array-loose.js
-738 silly gunzTarPerm extractEntry helpers/_possible-constructor-return.js
-739 silly gunzTarPerm extractEntry helpers/sliced-to-array.js
-740 silly gunzTarPerm extractEntry helpers/_object-without-properties.js
-741 silly gunzTarPerm extractEntry helpers/slicedToArray.js
-742 silly gunzTarPerm extractEntry helpers/_object-destructuring-empty.js
-743 silly gunzTarPerm extractEntry helpers/slicedToArrayLoose.js
-744 silly gunzTarPerm extractEntry helpers/_new-arrow-check.js
-745 silly gunzTarPerm extractEntry helpers/tagged-template-literal-loose.js
-746 silly gunzTarPerm extractEntry helpers/_jsx.js
-747 silly gunzTarPerm extractEntry helpers/tagged-template-literal.js
-748 silly gunzTarPerm extractEntry helpers/_interop-require-wildcard.js
-749 silly gunzTarPerm extractEntry helpers/taggedTemplateLiteral.js
-750 silly gunzTarPerm extractEntry helpers/_interop-require-default.js
-751 silly gunzTarPerm extractEntry helpers/taggedTemplateLiteralLoose.js
-752 silly gunzTarPerm extractEntry helpers/_instanceof.js
-753 silly gunzTarPerm extractEntry helpers/temporal-ref.js
-754 silly gunzTarPerm extractEntry helpers/_inherits.js
-755 silly gunzTarPerm extractEntry helpers/temporal-undefined.js
-756 silly gunzTarPerm extractEntry helpers/_get.js
-757 silly gunzTarPerm extractEntry helpers/temporalRef.js
-758 silly gunzTarPerm extractEntry helpers/_extends.js
-759 silly gunzTarPerm extractEntry helpers/temporalUndefined.js
-760 silly gunzTarPerm extractEntry helpers/_define-property.js
-761 silly gunzTarPerm extractEntry helpers/to-array.js
-762 silly gunzTarPerm extractEntry helpers/_define-enumerable-properties.js
-763 silly gunzTarPerm extractEntry helpers/to-consumable-array.js
-764 silly gunzTarPerm extractEntry helpers/_defaults.js
-765 silly gunzTarPerm extractEntry helpers/toArray.js
-766 silly gunzTarPerm extractEntry helpers/_create-class.js
-767 silly gunzTarPerm extractEntry helpers/toConsumableArray.js
-768 silly gunzTarPerm extractEntry helpers/_class-call-check.js
-769 silly gunzTarPerm extractEntry helpers/typeof.js
-770 silly gunzTarPerm extractEntry helpers/defineProperty.js
-771 silly gunzTarPerm extractEntry regenerator/index.js
-772 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize/package.json
-773 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/package.json
-774 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find/package.json
-775 info preinstall babel-register@6.16.3
-776 silly install resolved []
-777 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-778 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-779 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/package.json
-780 silly install resolved []
-781 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-782 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-783 info linkStuff lodash.find@4.6.0
-784 silly linkStuff lodash.find@4.6.0 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
-785 silly prepareForInstallMany adding path-exists@^1.0.0 from babel-register dependencies
-786 silly prepareForInstallMany adding source-map-support@^0.4.2 from babel-register dependencies
-787 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/package.json
-788 verbose linkBins lodash.find@4.6.0
-789 verbose linkMans lodash.find@4.6.0
-790 verbose rebuildBundles lodash.find@4.6.0
-791 info install lodash.find@4.6.0
-792 info postinstall lodash.find@4.6.0
-793 info linkStuff lodash.memoize@4.1.2
-794 silly linkStuff lodash.memoize@4.1.2 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
-795 silly cache add args [ 'path-exists@^1.0.0', null ]
-796 verbose cache add spec path-exists@^1.0.0
-797 silly cache add parsed spec Result {
-797 silly cache add   raw: 'path-exists@^1.0.0',
-797 silly cache add   scope: null,
-797 silly cache add   name: 'path-exists',
-797 silly cache add   rawSpec: '^1.0.0',
-797 silly cache add   spec: '>=1.0.0 <2.0.0',
-797 silly cache add   type: 'range' }
-798 silly addNamed path-exists@>=1.0.0 <2.0.0
-799 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for path-exists
-800 silly addNameRange { name: 'path-exists', range: '>=1.0.0 <2.0.0', hasData: false }
-801 silly mapToRegistry name path-exists
-802 silly mapToRegistry using default registry
-803 silly mapToRegistry registry https://registry.npmjs.org/
-804 silly mapToRegistry data Result {
-804 silly mapToRegistry   raw: 'path-exists',
-804 silly mapToRegistry   scope: null,
-804 silly mapToRegistry   name: 'path-exists',
-804 silly mapToRegistry   rawSpec: '',
-804 silly mapToRegistry   spec: 'latest',
-804 silly mapToRegistry   type: 'tag' }
-805 silly mapToRegistry uri https://registry.npmjs.org/path-exists
-806 verbose addNameRange registry:https://registry.npmjs.org/path-exists not in flight; fetching
-807 silly cache add args [ 'source-map-support@^0.4.2', null ]
-808 verbose cache add spec source-map-support@^0.4.2
-809 silly cache add parsed spec Result {
-809 silly cache add   raw: 'source-map-support@^0.4.2',
-809 silly cache add   scope: null,
-809 silly cache add   name: 'source-map-support',
-809 silly cache add   rawSpec: '^0.4.2',
-809 silly cache add   spec: '>=0.4.2 <0.5.0',
-809 silly cache add   type: 'range' }
-810 silly addNamed source-map-support@>=0.4.2 <0.5.0
-811 verbose addNamed ">=0.4.2 <0.5.0" is a valid semver range for source-map-support
-812 silly addNameRange { name: 'source-map-support',
-812 silly addNameRange   range: '>=0.4.2 <0.5.0',
-812 silly addNameRange   hasData: false }
-813 silly mapToRegistry name source-map-support
-814 silly mapToRegistry using default registry
-815 silly mapToRegistry registry https://registry.npmjs.org/
-816 silly mapToRegistry data Result {
-816 silly mapToRegistry   raw: 'source-map-support',
-816 silly mapToRegistry   scope: null,
-816 silly mapToRegistry   name: 'source-map-support',
-816 silly mapToRegistry   rawSpec: '',
-816 silly mapToRegistry   spec: 'latest',
-816 silly mapToRegistry   type: 'tag' }
-817 silly mapToRegistry uri https://registry.npmjs.org/source-map-support
-818 verbose addNameRange registry:https://registry.npmjs.org/source-map-support not in flight; fetching
-819 verbose unlock done using /Users/Minako/.npm/_locks/lodash-find-7224c64916b25dfb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
-820 verbose linkBins lodash.memoize@4.1.2
-821 verbose linkMans lodash.memoize@4.1.2
-822 verbose rebuildBundles lodash.memoize@4.1.2
-823 verbose request uri https://registry.npmjs.org/path-exists
-824 verbose request no auth needed
-825 info attempt registry request try #1 at 10:42:59 PM
-826 verbose etag "8WY41M4OVSF6VU10063GBETR9"
-827 http request GET https://registry.npmjs.org/path-exists
-828 verbose request uri https://registry.npmjs.org/source-map-support
-829 verbose request no auth needed
-830 info attempt registry request try #1 at 10:42:59 PM
-831 verbose etag "EV0LKHBQYQ150CF5DQGTDL7J3"
-832 http request GET https://registry.npmjs.org/source-map-support
-833 info install lodash.memoize@4.1.2
-834 info postinstall lodash.memoize@4.1.2
-835 verbose unlock done using /Users/Minako/.npm/_locks/lodash-memoize-d46587bf717c6a14.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
-836 http 304 https://registry.npmjs.org/path-exists
-837 verbose headers { date: 'Mon, 24 Oct 2016 08:42:59 GMT',
-837 verbose headers   via: '1.1 varnish',
-837 verbose headers   'cache-control': 'max-age=300',
-837 verbose headers   etag: '"8WY41M4OVSF6VU10063GBETR9"',
-837 verbose headers   age: '98',
-837 verbose headers   connection: 'keep-alive',
-837 verbose headers   'x-served-by': 'cache-sjc3639-SJC',
-837 verbose headers   'x-cache': 'HIT',
-837 verbose headers   'x-cache-hits': '2',
-837 verbose headers   'x-timer': 'S1477298579.475979,VS0,VE0',
-837 verbose headers   vary: 'Accept-Encoding' }
-838 silly get cb [ 304,
-838 silly get   { date: 'Mon, 24 Oct 2016 08:42:59 GMT',
-838 silly get     via: '1.1 varnish',
-838 silly get     'cache-control': 'max-age=300',
-838 silly get     etag: '"8WY41M4OVSF6VU10063GBETR9"',
-838 silly get     age: '98',
-838 silly get     connection: 'keep-alive',
-838 silly get     'x-served-by': 'cache-sjc3639-SJC',
-838 silly get     'x-cache': 'HIT',
-838 silly get     'x-cache-hits': '2',
-838 silly get     'x-timer': 'S1477298579.475979,VS0,VE0',
-838 silly get     vary: 'Accept-Encoding' } ]
-839 verbose etag https://registry.npmjs.org/path-exists from cache
-840 verbose get saving path-exists to /Users/Minako/.npm/registry.npmjs.org/path-exists/.cache.json
-841 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-842 http 304 https://registry.npmjs.org/source-map-support
-843 verbose headers { date: 'Mon, 24 Oct 2016 08:42:59 GMT',
-843 verbose headers   via: '1.1 varnish',
-843 verbose headers   'cache-control': 'max-age=300',
-843 verbose headers   etag: '"EV0LKHBQYQ150CF5DQGTDL7J3"',
-843 verbose headers   age: '64',
-843 verbose headers   connection: 'keep-alive',
-843 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
-843 verbose headers   'x-cache': 'HIT',
-843 verbose headers   'x-cache-hits': '1',
-843 verbose headers   'x-timer': 'S1477298579.477002,VS0,VE0',
-843 verbose headers   vary: 'Accept-Encoding' }
-844 silly get cb [ 304,
-844 silly get   { date: 'Mon, 24 Oct 2016 08:42:59 GMT',
-844 silly get     via: '1.1 varnish',
-844 silly get     'cache-control': 'max-age=300',
-844 silly get     etag: '"EV0LKHBQYQ150CF5DQGTDL7J3"',
-844 silly get     age: '64',
-844 silly get     connection: 'keep-alive',
-844 silly get     'x-served-by': 'cache-sjc3125-SJC',
-844 silly get     'x-cache': 'HIT',
-844 silly get     'x-cache-hits': '1',
-844 silly get     'x-timer': 'S1477298579.477002,VS0,VE0',
-844 silly get     vary: 'Accept-Encoding' } ]
-845 verbose etag https://registry.npmjs.org/source-map-support from cache
-846 verbose get saving source-map-support to /Users/Minako/.npm/registry.npmjs.org/source-map-support/.cache.json
-847 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-848 silly addNameRange number 2 { name: 'source-map-support',
-848 silly addNameRange   range: '>=0.4.2 <0.5.0',
-848 silly addNameRange   hasData: true }
-849 silly addNameRange versions [ 'source-map-support',
-849 silly addNameRange   [ '0.1.0',
-849 silly addNameRange     '0.1.1',
-849 silly addNameRange     '0.1.2',
-849 silly addNameRange     '0.1.3',
-849 silly addNameRange     '0.1.4',
-849 silly addNameRange     '0.1.5',
-849 silly addNameRange     '0.1.6',
-849 silly addNameRange     '0.1.7',
-849 silly addNameRange     '0.1.8',
-849 silly addNameRange     '0.1.9',
-849 silly addNameRange     '0.2.0',
-849 silly addNameRange     '0.2.1',
-849 silly addNameRange     '0.2.2',
-849 silly addNameRange     '0.2.3',
-849 silly addNameRange     '0.2.4',
-849 silly addNameRange     '0.2.5',
-849 silly addNameRange     '0.2.6',
-849 silly addNameRange     '0.2.7',
-849 silly addNameRange     '0.2.8',
-849 silly addNameRange     '0.2.9',
-849 silly addNameRange     '0.2.10',
-849 silly addNameRange     '0.3.0',
-849 silly addNameRange     '0.3.1',
-849 silly addNameRange     '0.3.2',
-849 silly addNameRange     '0.3.3',
-849 silly addNameRange     '0.4.0',
-849 silly addNameRange     '0.4.1',
-849 silly addNameRange     '0.4.2',
-849 silly addNameRange     '0.4.3',
-849 silly addNameRange     '0.4.4',
-849 silly addNameRange     '0.4.5' ] ]
-850 silly addNamed source-map-support@0.4.5
-851 verbose addNamed "0.4.5" is a plain semver version for source-map-support
-852 silly addNameRange number 2 { name: 'path-exists', range: '>=1.0.0 <2.0.0', hasData: true }
-853 silly addNameRange versions [ 'path-exists', [ '1.0.0', '2.0.0', '2.1.0', '3.0.0' ] ]
-854 silly addNamed path-exists@1.0.0
-855 verbose addNamed "1.0.0" is a plain semver version for path-exists
-856 silly cache afterAdd path-exists@1.0.0
-857 verbose afterAdd /Users/Minako/.npm/path-exists/1.0.0/package/package.json not in flight; writing
-858 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-859 silly cache afterAdd source-map-support@0.4.5
-860 verbose afterAdd /Users/Minako/.npm/source-map-support/0.4.5/package/package.json not in flight; writing
-861 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
-862 verbose afterAdd /Users/Minako/.npm/path-exists/1.0.0/package/package.json written
-863 verbose afterAdd /Users/Minako/.npm/source-map-support/0.4.5/package/package.json written
-864 silly install resolved [ { name: 'path-exists',
-864 silly install resolved     version: '1.0.0',
-864 silly install resolved     description: 'Check if a path exists',
-864 silly install resolved     license: 'MIT',
-864 silly install resolved     repository:
-864 silly install resolved      { type: 'git',
-864 silly install resolved        url: 'git+https://github.com/sindresorhus/path-exists.git' },
-864 silly install resolved     author:
-864 silly install resolved      { name: 'Sindre Sorhus',
-864 silly install resolved        email: 'sindresorhus@gmail.com',
-864 silly install resolved        url: 'sindresorhus.com' },
-864 silly install resolved     engines: { node: '>=0.10.0' },
-864 silly install resolved     scripts: { test: 'node test.js' },
-864 silly install resolved     files: [ 'index.js' ],
-864 silly install resolved     keywords:
-864 silly install resolved      [ 'path',
-864 silly install resolved        'exists',
-864 silly install resolved        'exist',
-864 silly install resolved        'file',
-864 silly install resolved        'filepath',
-864 silly install resolved        'fs',
-864 silly install resolved        'filesystem',
-864 silly install resolved        'file-system',
-864 silly install resolved        'access',
-864 silly install resolved        'stat' ],
-864 silly install resolved     devDependencies: { ava: '0.0.4' },
-864 silly install resolved     gitHead: 'be563ef9f750ec4fcbd5cc77603c869bdee05658',
-864 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/path-exists/issues' },
-864 silly install resolved     homepage: 'https://github.com/sindresorhus/path-exists',
-864 silly install resolved     _id: 'path-exists@1.0.0',
-864 silly install resolved     _shasum: 'd5a8998eb71ef37a74c34eb0d9eba6e878eea081',
-864 silly install resolved     _from: 'path-exists@>=1.0.0 <2.0.0',
-864 silly install resolved     _npmVersion: '2.7.4',
-864 silly install resolved     _nodeVersion: '0.12.2',
-864 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
-864 silly install resolved     dist:
-864 silly install resolved      { shasum: 'd5a8998eb71ef37a74c34eb0d9eba6e878eea081',
-864 silly install resolved        tarball: 'https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz' },
-864 silly install resolved     maintainers: [ [Object] ],
-864 silly install resolved     directories: {},
-864 silly install resolved     _resolved: 'https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz',
-864 silly install resolved     readme: 'ERROR: No README data found!' },
-864 silly install resolved   { name: 'source-map-support',
-864 silly install resolved     description: 'Fixes stack traces for files with source maps',
-864 silly install resolved     version: '0.4.5',
-864 silly install resolved     main: './source-map-support.js',
-864 silly install resolved     scripts:
-864 silly install resolved      { build: 'node build.js',
-864 silly install resolved        'serve-tests': 'http-server -p 1336',
-864 silly install resolved        test: 'mocha' },
-864 silly install resolved     dependencies: { 'source-map': '^0.5.3' },
-864 silly install resolved     devDependencies:
-864 silly install resolved      { browserify: '3.44.2',
-864 silly install resolved        'coffee-script': '1.7.1',
-864 silly install resolved        'http-server': '^0.8.5',
-864 silly install resolved        mocha: '1.18.2' },
-864 silly install resolved     repository:
-864 silly install resolved      { type: 'git',
-864 silly install resolved        url: 'git+https://github.com/evanw/node-source-map-support.git' },
-864 silly install resolved     bugs: { url: 'https://github.com/evanw/node-source-map-support/issues' },
-864 silly install resolved     license: 'MIT',
-864 silly install resolved     gitHead: 'bdea7fefc11c78a733a08d5228a747801df191e8',
-864 silly install resolved     homepage: 'https://github.com/evanw/node-source-map-support#readme',
-864 silly install resolved     _id: 'source-map-support@0.4.5',
-864 silly install resolved     _shasum: '4438df4219e1b3c7feb674614b4c67f9722db1e4',
-864 silly install resolved     _from: 'source-map-support@>=0.4.2 <0.5.0',
-864 silly install resolved     _npmVersion: '3.10.7',
-864 silly install resolved     _nodeVersion: '6.7.0',
-864 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
-864 silly install resolved     dist:
-864 silly install resolved      { shasum: '4438df4219e1b3c7feb674614b4c67f9722db1e4',
-864 silly install resolved        tarball: 'https://registry.npmjs.org/source-map-support/-/source-map-support-0.4.5.tgz' },
-864 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
-864 silly install resolved     _npmOperationalInternal:
-864 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
-864 silly install resolved        tmp: 'tmp/source-map-support-0.4.5.tgz_1476773585548_0.42083092918619514' },
-864 silly install resolved     directories: {},
-864 silly install resolved     _resolved: 'https://registry.npmjs.org/source-map-support/-/source-map-support-0.4.5.tgz',
-864 silly install resolved     readme: 'ERROR: No README data found!' } ]
-865 info install path-exists@1.0.0 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-866 info install source-map-support@0.4.5 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-867 info installOne path-exists@1.0.0
-868 verbose installOne of path-exists to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register not in flight; installing
-869 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-870 info installOne source-map-support@0.4.5
-871 verbose installOne of source-map-support to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register not in flight; installing
-872 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
-873 verbose lock using /Users/Minako/.npm/_locks/path-exists-39c8920a47dc27aa.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-874 verbose lock using /Users/Minako/.npm/_locks/source-map-support-bc14e4f91d18b2bb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-875 silly install write writing path-exists 1.0.0 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-876 silly install write writing source-map-support 0.4.5 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-877 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-878 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-879 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-880 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-881 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-882 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-883 verbose tar unpack /Users/Minako/.npm/path-exists/1.0.0/package.tgz
-884 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-885 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists is being purged
-886 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-887 verbose tar unpack /Users/Minako/.npm/source-map-support/0.4.5/package.tgz
-888 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-889 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support is being purged
-890 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-891 silly gunzTarPerm modes [ '755', '644' ]
-892 silly gunzTarPerm modes [ '755', '644' ]
-893 silly gunzTarPerm extractEntry package.json
-894 silly gunzTarPerm extractEntry package.json
-895 silly gunzTarPerm extractEntry index.js
-896 silly gunzTarPerm extractEntry license
-897 silly gunzTarPerm extractEntry .npmignore
-898 silly gunzTarPerm extractEntry README.md
-899 silly gunzTarPerm extractEntry readme.md
-900 silly gunzTarPerm extractEntry test.js
-901 silly gunzTarPerm extractEntry browser-source-map-support.js
-902 silly gunzTarPerm extractEntry build.js
-903 silly gunzTarPerm extractEntry source-map-support.js
-904 silly gunzTarPerm extractEntry register.js
-905 silly gunzTarPerm extractEntry LICENSE.md
-906 silly gunzTarPerm extractEntry header-test/script.js
-907 silly gunzTarPerm extractEntry header-test/server.js
-908 silly gunzTarPerm extractEntry header-test/index.html
-909 silly gunzTarPerm extractEntry header-test/script.coffee
-910 silly gunzTarPerm extractEntry header-test/script.map
-911 silly gunzTarPerm extractEntry amd-test/browser-source-map-support.js
-912 silly gunzTarPerm extractEntry amd-test/require.js
-913 silly gunzTarPerm extractEntry amd-test/script.js
-914 silly gunzTarPerm extractEntry amd-test/index.html
-915 silly gunzTarPerm extractEntry amd-test/script.coffee
-916 silly gunzTarPerm extractEntry amd-test/script.map
-917 silly gunzTarPerm extractEntry .travis.yml
-918 silly gunzTarPerm extractEntry browser-test/script.js
-919 silly gunzTarPerm extractEntry browser-test/index.html
-920 silly gunzTarPerm extractEntry browser-test/script.coffee
-921 silly gunzTarPerm extractEntry browser-test/script.map
-922 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists/package.json
-923 info preinstall path-exists@1.0.0
-924 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists/package.json
-925 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists/package.json
-926 silly install resolved []
-927 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-928 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-929 info linkStuff path-exists@1.0.0
-930 silly linkStuff path-exists@1.0.0 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules as its parent node_modules
-931 verbose linkBins path-exists@1.0.0
-932 verbose linkMans path-exists@1.0.0
-933 verbose rebuildBundles path-exists@1.0.0
-934 info install path-exists@1.0.0
-935 info postinstall path-exists@1.0.0
-936 verbose unlock done using /Users/Minako/.npm/_locks/path-exists-39c8920a47dc27aa.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
-937 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support/package.json
-938 info preinstall source-map-support@0.4.5
-939 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support/package.json
-940 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support/package.json
-941 silly install resolved []
-942 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-943 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-944 info linkStuff source-map-support@0.4.5
-945 silly linkStuff source-map-support@0.4.5 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules as its parent node_modules
-946 verbose linkBins source-map-support@0.4.5
-947 verbose linkMans source-map-support@0.4.5
-948 verbose rebuildBundles source-map-support@0.4.5
-949 info install source-map-support@0.4.5
-950 info postinstall source-map-support@0.4.5
-951 verbose unlock done using /Users/Minako/.npm/_locks/source-map-support-bc14e4f91d18b2bb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
-952 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-953 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-954 info linkStuff babel-register@6.16.3
-955 silly linkStuff babel-register@6.16.3 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
-956 verbose linkBins babel-register@6.16.3
-957 verbose linkMans babel-register@6.16.3
-958 verbose rebuildBundles babel-register@6.16.3
-959 verbose rebuildBundles [ 'path-exists', 'source-map-support' ]
-960 info install babel-register@6.16.3
-961 info postinstall babel-register@6.16.3
-962 verbose unlock done using /Users/Minako/.npm/_locks/babel-register-bdca4dc0189c5195.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
-963 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime/package.json
-964 info preinstall babel-runtime@6.11.6
-965 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime/package.json
-966 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime/package.json
-967 silly install resolved []
-968 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-969 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-970 info linkStuff babel-runtime@6.11.6
-971 silly linkStuff babel-runtime@6.11.6 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
-972 verbose linkBins babel-runtime@6.11.6
-973 verbose linkMans babel-runtime@6.11.6
-974 verbose rebuildBundles babel-runtime@6.11.6
-975 info install babel-runtime@6.11.6
-976 info postinstall babel-runtime@6.11.6
-977 verbose unlock done using /Users/Minako/.npm/_locks/babel-runtime-fb32e97207da3282.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
-978 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-979 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-980 info linkStuff eslint-plugin-meteor@4.0.1
-981 silly linkStuff eslint-plugin-meteor@4.0.1 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules as its parent node_modules
-982 verbose linkBins eslint-plugin-meteor@4.0.1
-983 verbose linkMans eslint-plugin-meteor@4.0.1
-984 verbose rebuildBundles eslint-plugin-meteor@4.0.1
-985 verbose rebuildBundles [ 'babel-register',
-985 verbose rebuildBundles   'babel-runtime',
-985 verbose rebuildBundles   'lodash.find',
-985 verbose rebuildBundles   'lodash.memoize' ]
-986 info install eslint-plugin-meteor@4.0.1
-987 info postinstall eslint-plugin-meteor@4.0.1
-988 verbose unlock done using /Users/Minako/.npm/_locks/eslint-plugin-meteor-2ed0991029f538ae.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
-989 verbose validateInstall loading /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/package.json for validation
-990 verbose stack Error: The package eslint@3.8.1 does not satisfy its siblings' peerDependencies requirements!
-990 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
-990 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
-990 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
-990 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
-990 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-990 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
-990 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-990 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
-990 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-990 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
-991 verbose cwd /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
-992 error Darwin 16.0.0
-993 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "eslint-plugin-meteor" "--save-dev"
-994 error node v4.5.0
-995 error npm  v2.15.9
-996 error code EPEERINVALID
-997 error peerinvalid The package eslint@3.8.1 does not satisfy its siblings' peerDependencies requirements!
-997 error peerinvalid Peer eslint-config-airbnb@7.0.0 wants eslint@^2.7.0
-997 error peerinvalid Peer eslint-plugin-meteor@4.0.1 wants eslint@^3.7.0
-998 verbose exit [ 1, true ]
+390 info attempt registry request try #1 at 1:51:37 AM
+391 verbose etag "8SNHIBE4FPSX0TRHAFAXH05ND"
+392 http request GET https://registry.npmjs.org/babel-runtime
+393 http 304 https://registry.npmjs.org/lodash.find
+394 verbose headers { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+394 verbose headers   via: '1.1 varnish',
+394 verbose headers   'cache-control': 'max-age=300',
+394 verbose headers   etag: '"1PJKUGU45H2HV26A8AAWZ9QUH"',
+394 verbose headers   age: '70',
+394 verbose headers   connection: 'keep-alive',
+394 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+394 verbose headers   'x-cache': 'HIT',
+394 verbose headers   'x-cache-hits': '1',
+394 verbose headers   'x-timer': 'S1477309898.438411,VS0,VE0',
+394 verbose headers   vary: 'Accept-Encoding' }
+395 silly get cb [ 304,
+395 silly get   { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+395 silly get     via: '1.1 varnish',
+395 silly get     'cache-control': 'max-age=300',
+395 silly get     etag: '"1PJKUGU45H2HV26A8AAWZ9QUH"',
+395 silly get     age: '70',
+395 silly get     connection: 'keep-alive',
+395 silly get     'x-served-by': 'cache-sjc3147-SJC',
+395 silly get     'x-cache': 'HIT',
+395 silly get     'x-cache-hits': '1',
+395 silly get     'x-timer': 'S1477309898.438411,VS0,VE0',
+395 silly get     vary: 'Accept-Encoding' } ]
+396 verbose etag https://registry.npmjs.org/lodash.find from cache
+397 verbose get saving lodash.find to /Users/Minako/.npm/registry.npmjs.org/lodash.find/.cache.json
+398 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+399 silly cache afterAdd lodash.find@4.6.0
+400 verbose afterAdd /Users/Minako/.npm/lodash.find/4.6.0/package/package.json not in flight; writing
+401 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+402 verbose afterAdd /Users/Minako/.npm/lodash.find/4.6.0/package/package.json written
+403 http 304 https://registry.npmjs.org/lodash.memoize
+404 verbose headers { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+404 verbose headers   via: '1.1 varnish',
+404 verbose headers   'cache-control': 'max-age=300',
+404 verbose headers   etag: '"1IYDI88LPO6T1MHFU8XTSS84W"',
+404 verbose headers   age: '91',
+404 verbose headers   connection: 'keep-alive',
+404 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+404 verbose headers   'x-cache': 'HIT',
+404 verbose headers   'x-cache-hits': '1',
+404 verbose headers   'x-timer': 'S1477309898.591236,VS0,VE0',
+404 verbose headers   vary: 'Accept-Encoding' }
+405 silly get cb [ 304,
+405 silly get   { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+405 silly get     via: '1.1 varnish',
+405 silly get     'cache-control': 'max-age=300',
+405 silly get     etag: '"1IYDI88LPO6T1MHFU8XTSS84W"',
+405 silly get     age: '91',
+405 silly get     connection: 'keep-alive',
+405 silly get     'x-served-by': 'cache-sjc3147-SJC',
+405 silly get     'x-cache': 'HIT',
+405 silly get     'x-cache-hits': '1',
+405 silly get     'x-timer': 'S1477309898.591236,VS0,VE0',
+405 silly get     vary: 'Accept-Encoding' } ]
+406 verbose etag https://registry.npmjs.org/lodash.memoize from cache
+407 verbose get saving lodash.memoize to /Users/Minako/.npm/registry.npmjs.org/lodash.memoize/.cache.json
+408 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+409 silly cache afterAdd lodash.memoize@4.1.2
+410 verbose afterAdd /Users/Minako/.npm/lodash.memoize/4.1.2/package/package.json not in flight; writing
+411 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+412 http 304 https://registry.npmjs.org/babel-register
+413 verbose headers { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+413 verbose headers   via: '1.1 varnish',
+413 verbose headers   'cache-control': 'max-age=300',
+413 verbose headers   etag: '"AP4XDPBZ0U2MBYFXZZJA2Y5WF"',
+413 verbose headers   age: '16',
+413 verbose headers   connection: 'keep-alive',
+413 verbose headers   'x-served-by': 'cache-sjc3638-SJC',
+413 verbose headers   'x-cache': 'HIT',
+413 verbose headers   'x-cache-hits': '1',
+413 verbose headers   'x-timer': 'S1477309898.598016,VS0,VE0',
+413 verbose headers   vary: 'Accept-Encoding' }
+414 silly get cb [ 304,
+414 silly get   { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+414 silly get     via: '1.1 varnish',
+414 silly get     'cache-control': 'max-age=300',
+414 silly get     etag: '"AP4XDPBZ0U2MBYFXZZJA2Y5WF"',
+414 silly get     age: '16',
+414 silly get     connection: 'keep-alive',
+414 silly get     'x-served-by': 'cache-sjc3638-SJC',
+414 silly get     'x-cache': 'HIT',
+414 silly get     'x-cache-hits': '1',
+414 silly get     'x-timer': 'S1477309898.598016,VS0,VE0',
+414 silly get     vary: 'Accept-Encoding' } ]
+415 verbose etag https://registry.npmjs.org/babel-register from cache
+416 verbose get saving babel-register to /Users/Minako/.npm/registry.npmjs.org/babel-register/.cache.json
+417 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+418 verbose afterAdd /Users/Minako/.npm/lodash.memoize/4.1.2/package/package.json written
+419 http 304 https://registry.npmjs.org/babel-runtime
+420 verbose headers { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+420 verbose headers   via: '1.1 varnish',
+420 verbose headers   'cache-control': 'max-age=300',
+420 verbose headers   etag: '"8SNHIBE4FPSX0TRHAFAXH05ND"',
+420 verbose headers   age: '238',
+420 verbose headers   connection: 'keep-alive',
+420 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+420 verbose headers   'x-cache': 'HIT',
+420 verbose headers   'x-cache-hits': '1',
+420 verbose headers   'x-timer': 'S1477309898.605054,VS0,VE0',
+420 verbose headers   vary: 'Accept-Encoding' }
+421 silly get cb [ 304,
+421 silly get   { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+421 silly get     via: '1.1 varnish',
+421 silly get     'cache-control': 'max-age=300',
+421 silly get     etag: '"8SNHIBE4FPSX0TRHAFAXH05ND"',
+421 silly get     age: '238',
+421 silly get     connection: 'keep-alive',
+421 silly get     'x-served-by': 'cache-sjc3135-SJC',
+421 silly get     'x-cache': 'HIT',
+421 silly get     'x-cache-hits': '1',
+421 silly get     'x-timer': 'S1477309898.605054,VS0,VE0',
+421 silly get     vary: 'Accept-Encoding' } ]
+422 verbose etag https://registry.npmjs.org/babel-runtime from cache
+423 verbose get saving babel-runtime to /Users/Minako/.npm/registry.npmjs.org/babel-runtime/.cache.json
+424 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+425 silly cache afterAdd babel-register@6.16.3
+426 verbose afterAdd /Users/Minako/.npm/babel-register/6.16.3/package/package.json not in flight; writing
+427 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+428 verbose afterAdd /Users/Minako/.npm/babel-register/6.16.3/package/package.json written
+429 silly cache afterAdd babel-runtime@6.11.6
+430 verbose afterAdd /Users/Minako/.npm/babel-runtime/6.11.6/package/package.json not in flight; writing
+431 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+432 verbose afterAdd /Users/Minako/.npm/babel-runtime/6.11.6/package/package.json written
+433 silly install resolved [ { name: 'lodash.find',
+433 silly install resolved     version: '4.6.0',
+433 silly install resolved     description: 'The lodash method `_.find` exported as a module.',
+433 silly install resolved     homepage: 'https://lodash.com/',
+433 silly install resolved     icon: 'https://lodash.com/icon.svg',
+433 silly install resolved     license: 'MIT',
+433 silly install resolved     keywords: [ 'lodash-modularized', 'find' ],
+433 silly install resolved     author:
+433 silly install resolved      { name: 'John-David Dalton',
+433 silly install resolved        email: 'john.david.dalton@gmail.com',
+433 silly install resolved        url: 'http://allyoucanleet.com/' },
+433 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+433 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+433 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+433 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+433 silly install resolved     _id: 'lodash.find@4.6.0',
+433 silly install resolved     _shasum: 'cb0704d47ab71789ffa0de8b97dd926fb88b13b1',
+433 silly install resolved     _from: 'lodash.find@4.6.0',
+433 silly install resolved     _npmVersion: '2.15.10',
+433 silly install resolved     _nodeVersion: '4.4.7',
+433 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+433 silly install resolved     dist:
+433 silly install resolved      { shasum: 'cb0704d47ab71789ffa0de8b97dd926fb88b13b1',
+433 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.find/-/lodash.find-4.6.0.tgz' },
+433 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+433 silly install resolved     _npmOperationalInternal:
+433 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+433 silly install resolved        tmp: 'tmp/lodash.find-4.6.0.tgz_1471109903048_0.12996025383472443' },
+433 silly install resolved     directories: {},
+433 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.find/-/lodash.find-4.6.0.tgz',
+433 silly install resolved     readme: 'ERROR: No README data found!' },
+433 silly install resolved   { name: 'lodash.memoize',
+433 silly install resolved     version: '4.1.2',
+433 silly install resolved     description: 'The lodash method `_.memoize` exported as a module.',
+433 silly install resolved     homepage: 'https://lodash.com/',
+433 silly install resolved     icon: 'https://lodash.com/icon.svg',
+433 silly install resolved     license: 'MIT',
+433 silly install resolved     keywords: [ 'lodash-modularized', 'memoize' ],
+433 silly install resolved     author:
+433 silly install resolved      { name: 'John-David Dalton',
+433 silly install resolved        email: 'john.david.dalton@gmail.com',
+433 silly install resolved        url: 'http://allyoucanleet.com/' },
+433 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+433 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+433 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+433 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+433 silly install resolved     _id: 'lodash.memoize@4.1.2',
+433 silly install resolved     _shasum: 'bcc6c49a42a2840ed997f323eada5ecd182e0bfe',
+433 silly install resolved     _from: 'lodash.memoize@4.1.2',
+433 silly install resolved     _npmVersion: '2.15.10',
+433 silly install resolved     _nodeVersion: '4.4.7',
+433 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+433 silly install resolved     dist:
+433 silly install resolved      { shasum: 'bcc6c49a42a2840ed997f323eada5ecd182e0bfe',
+433 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz' },
+433 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+433 silly install resolved     _npmOperationalInternal:
+433 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+433 silly install resolved        tmp: 'tmp/lodash.memoize-4.1.2.tgz_1471110128677_0.1628954140469432' },
+433 silly install resolved     directories: {},
+433 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz',
+433 silly install resolved     readme: 'ERROR: No README data found!' },
+433 silly install resolved   { name: 'babel-register',
+433 silly install resolved     version: '6.16.3',
+433 silly install resolved     description: 'babel require hook',
+433 silly install resolved     license: 'MIT',
+433 silly install resolved     repository:
+433 silly install resolved      { type: 'git',
+433 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-register' },
+433 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+433 silly install resolved     main: 'lib/node.js',
+433 silly install resolved     browser: 'lib/browser.js',
+433 silly install resolved     dependencies:
+433 silly install resolved      { 'babel-core': '^6.16.0',
+433 silly install resolved        'babel-runtime': '^6.11.6',
+433 silly install resolved        'core-js': '^2.4.0',
+433 silly install resolved        'home-or-tmp': '^1.0.0',
+433 silly install resolved        lodash: '^4.2.0',
+433 silly install resolved        mkdirp: '^0.5.1',
+433 silly install resolved        'path-exists': '^1.0.0',
+433 silly install resolved        'source-map-support': '^0.4.2' },
+433 silly install resolved     _id: 'babel-register@6.16.3',
+433 silly install resolved     scripts: {},
+433 silly install resolved     _shasum: '7b0c0ca7bfdeb9188ba4c27e5fcb7599a497c624',
+433 silly install resolved     _from: 'babel-register@6.16.3',
+433 silly install resolved     _npmVersion: '3.10.8',
+433 silly install resolved     _nodeVersion: '5.11.1',
+433 silly install resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
+433 silly install resolved     dist:
+433 silly install resolved      { shasum: '7b0c0ca7bfdeb9188ba4c27e5fcb7599a497c624',
+433 silly install resolved        tarball: 'https://registry.npmjs.org/babel-register/-/babel-register-6.16.3.tgz' },
+433 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+433 silly install resolved     _npmOperationalInternal:
+433 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+433 silly install resolved        tmp: 'tmp/babel-register-6.16.3.tgz_1475164015371_0.4618200524710119' },
+433 silly install resolved     directories: {},
+433 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-register/-/babel-register-6.16.3.tgz',
+433 silly install resolved     readme: 'ERROR: No README data found!' },
+433 silly install resolved   { name: 'babel-runtime',
+433 silly install resolved     version: '6.11.6',
+433 silly install resolved     description: 'babel selfContained runtime',
+433 silly install resolved     license: 'MIT',
+433 silly install resolved     repository:
+433 silly install resolved      { type: 'git',
+433 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-runtime' },
+433 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+433 silly install resolved     dependencies: { 'core-js': '^2.4.0', 'regenerator-runtime': '^0.9.5' },
+433 silly install resolved     devDependencies:
+433 silly install resolved      { 'babel-helpers': '^6.6.0',
+433 silly install resolved        'babel-plugin-transform-runtime': '^6.9.0' },
+433 silly install resolved     _id: 'babel-runtime@6.11.6',
+433 silly install resolved     scripts: {},
+433 silly install resolved     _shasum: '6db707fef2d49c49bfa3cb64efdb436b518b8222',
+433 silly install resolved     _from: 'babel-runtime@6.11.6',
+433 silly install resolved     _npmVersion: '3.10.3',
+433 silly install resolved     _nodeVersion: '5.11.1',
+433 silly install resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
+433 silly install resolved     dist:
+433 silly install resolved      { shasum: '6db707fef2d49c49bfa3cb64efdb436b518b8222',
+433 silly install resolved        tarball: 'https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.11.6.tgz' },
+433 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+433 silly install resolved     _npmOperationalInternal:
+433 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+433 silly install resolved        tmp: 'tmp/babel-runtime-6.11.6.tgz_1469571147362_0.24374734237790108' },
+433 silly install resolved     directories: {},
+433 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.11.6.tgz',
+433 silly install resolved     readme: 'ERROR: No README data found!' } ]
+434 info install lodash.find@4.6.0 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+435 info install lodash.memoize@4.1.2 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+436 info install babel-register@6.16.3 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+437 info install babel-runtime@6.11.6 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+438 info installOne lodash.find@4.6.0
+439 verbose installOne of lodash.find to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
+440 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+441 info installOne lodash.memoize@4.1.2
+442 verbose installOne of lodash.memoize to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
+443 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+444 info installOne babel-register@6.16.3
+445 verbose installOne of babel-register to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
+446 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+447 info installOne babel-runtime@6.11.6
+448 verbose installOne of babel-runtime to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor not in flight; installing
+449 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+450 verbose lock using /Users/Minako/.npm/_locks/lodash-find-7224c64916b25dfb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+451 verbose lock using /Users/Minako/.npm/_locks/lodash-memoize-d46587bf717c6a14.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+452 verbose lock using /Users/Minako/.npm/_locks/babel-register-bdca4dc0189c5195.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+453 silly install write writing lodash.find 4.6.0 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+454 verbose lock using /Users/Minako/.npm/_locks/babel-runtime-fb32e97207da3282.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+455 silly install write writing lodash.memoize 4.1.2 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+456 silly install write writing babel-register 6.16.3 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+457 silly install write writing babel-runtime 6.11.6 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+458 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/lodash.find
+459 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+460 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-register
+461 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+462 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+463 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+464 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+465 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+466 verbose tar unpack /Users/Minako/.npm/lodash.find/4.6.0/package.tgz
+467 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+468 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find is being purged
+469 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+470 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+471 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+472 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+473 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+474 verbose tar unpack /Users/Minako/.npm/lodash.memoize/4.1.2/package.tgz
+475 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+476 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize is being purged
+477 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+478 silly gunzTarPerm modes [ '755', '644' ]
+479 verbose tar unpack /Users/Minako/.npm/babel-register/6.16.3/package.tgz
+480 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+481 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register is being purged
+482 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+483 verbose tar unpack /Users/Minako/.npm/babel-runtime/6.11.6/package.tgz
+484 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+485 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime is being purged
+486 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+487 silly gunzTarPerm modes [ '755', '644' ]
+488 silly gunzTarPerm modes [ '755', '644' ]
+489 silly gunzTarPerm modes [ '755', '644' ]
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm extractEntry package.json
+492 silly gunzTarPerm extractEntry package.json
+493 silly gunzTarPerm extractEntry package.json
+494 silly gunzTarPerm extractEntry README.md
+495 silly gunzTarPerm extractEntry LICENSE
+496 silly gunzTarPerm extractEntry README.md
+497 silly gunzTarPerm extractEntry LICENSE
+498 silly gunzTarPerm extractEntry .npmignore
+499 silly gunzTarPerm extractEntry README.md
+500 silly gunzTarPerm extractEntry .npmignore
+501 silly gunzTarPerm extractEntry README.md
+502 silly gunzTarPerm extractEntry index.js
+503 silly gunzTarPerm extractEntry index.js
+504 silly gunzTarPerm extractEntry core-js.js
+505 silly gunzTarPerm extractEntry core-js/weak-set.js
+506 silly gunzTarPerm extractEntry lib/browser.js
+507 silly gunzTarPerm extractEntry lib/cache.js
+508 silly gunzTarPerm extractEntry core-js/weak-map.js
+509 silly gunzTarPerm extractEntry core-js/get-iterator.js
+510 silly gunzTarPerm extractEntry lib/node.js
+511 silly gunzTarPerm extractEntry core-js/is-iterable.js
+512 silly gunzTarPerm extractEntry core-js/clear-immediate.js
+513 silly gunzTarPerm extractEntry core-js/map.js
+514 silly gunzTarPerm extractEntry core-js/set.js
+515 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize/package.json
+516 silly gunzTarPerm extractEntry core-js/set-immediate.js
+517 silly gunzTarPerm extractEntry core-js/promise.js
+518 info preinstall lodash.memoize@4.1.2
+519 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find/package.json
+520 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize/package.json
+521 silly gunzTarPerm extractEntry core-js/asap.js
+522 silly gunzTarPerm extractEntry core-js/symbol.js
+523 info preinstall lodash.find@4.6.0
+524 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize/package.json
+525 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find/package.json
+526 silly gunzTarPerm extractEntry core-js/observable.js
+527 silly gunzTarPerm extractEntry core-js/string/at.js
+528 silly gunzTarPerm extractEntry core-js/string/match-all.js
+529 silly gunzTarPerm extractEntry core-js/string/pad-end.js
+530 silly gunzTarPerm extractEntry core-js/string/pad-left.js
+531 silly gunzTarPerm extractEntry core-js/string/pad-right.js
+532 silly gunzTarPerm extractEntry core-js/string/includes.js
+533 silly gunzTarPerm extractEntry core-js/string/raw.js
+534 silly gunzTarPerm extractEntry core-js/string/repeat.js
+535 silly gunzTarPerm extractEntry core-js/string/starts-with.js
+536 silly gunzTarPerm extractEntry core-js/string/trim-end.js
+537 silly gunzTarPerm extractEntry core-js/string/trim-left.js
+538 silly gunzTarPerm extractEntry core-js/string/from-code-point.js
+539 silly gunzTarPerm extractEntry core-js/string/trim-right.js
+540 silly gunzTarPerm extractEntry core-js/string/ends-with.js
+541 silly gunzTarPerm extractEntry core-js/string/trim-start.js
+542 silly gunzTarPerm extractEntry core-js/string/code-point-at.js
+543 silly gunzTarPerm extractEntry core-js/string/trim.js
+544 silly gunzTarPerm extractEntry core-js/string/pad-start.js
+545 silly gunzTarPerm extractEntry core-js/object/assign.js
+546 silly gunzTarPerm extractEntry core-js/object/get-own-property-descriptor.js
+547 silly gunzTarPerm extractEntry core-js/object/get-own-property-descriptors.js
+548 silly gunzTarPerm extractEntry core-js/object/get-own-property-names.js
+549 silly gunzTarPerm extractEntry core-js/object/get-own-property-symbols.js
+550 silly gunzTarPerm extractEntry core-js/object/freeze.js
+551 silly gunzTarPerm extractEntry core-js/object/is-extensible.js
+552 silly gunzTarPerm extractEntry core-js/object/is-frozen.js
+553 silly gunzTarPerm extractEntry core-js/object/is-sealed.js
+554 silly gunzTarPerm extractEntry core-js/object/is.js
+555 silly gunzTarPerm extractEntry core-js/object/keys.js
+556 silly gunzTarPerm extractEntry core-js/object/entries.js
+557 silly gunzTarPerm extractEntry core-js/object/prevent-extensions.js
+558 silly gunzTarPerm extractEntry core-js/object/define-property.js
+559 silly gunzTarPerm extractEntry core-js/object/seal.js
+560 silly gunzTarPerm extractEntry core-js/object/define-properties.js
+561 silly gunzTarPerm extractEntry core-js/object/set-prototype-of.js
+562 silly gunzTarPerm extractEntry core-js/object/create.js
+563 silly gunzTarPerm extractEntry core-js/object/values.js
+564 silly gunzTarPerm extractEntry core-js/object/get-prototype-of.js
+565 silly gunzTarPerm extractEntry core-js/regexp/escape.js
+566 silly gunzTarPerm extractEntry core-js/number/epsilon.js
+567 silly gunzTarPerm extractEntry core-js/number/is-finite.js
+568 silly gunzTarPerm extractEntry core-js/number/is-integer.js
+569 silly gunzTarPerm extractEntry core-js/number/is-nan.js
+570 silly gunzTarPerm extractEntry core-js/number/is-safe-integer.js
+571 silly gunzTarPerm extractEntry core-js/number/max-safe-integer.js
+572 silly gunzTarPerm extractEntry core-js/number/min-safe-integer.js
+573 silly gunzTarPerm extractEntry core-js/number/parse-float.js
+574 silly gunzTarPerm extractEntry core-js/number/parse-int.js
+575 silly gunzTarPerm extractEntry core-js/math/acosh.js
+576 silly gunzTarPerm extractEntry core-js/math/fround.js
+577 silly gunzTarPerm extractEntry core-js/math/hypot.js
+578 silly gunzTarPerm extractEntry core-js/math/iaddh.js
+579 silly gunzTarPerm extractEntry core-js/math/expm1.js
+580 silly gunzTarPerm extractEntry core-js/math/imulh.js
+581 silly gunzTarPerm extractEntry core-js/math/isubh.js
+582 silly gunzTarPerm extractEntry core-js/math/log10.js
+583 silly gunzTarPerm extractEntry core-js/math/log1p.js
+584 silly gunzTarPerm extractEntry core-js/math/log2.js
+585 silly gunzTarPerm extractEntry core-js/math/cosh.js
+586 silly gunzTarPerm extractEntry core-js/math/sign.js
+587 silly gunzTarPerm extractEntry core-js/math/clz32.js
+588 silly gunzTarPerm extractEntry core-js/math/sinh.js
+589 silly gunzTarPerm extractEntry core-js/math/cbrt.js
+590 silly gunzTarPerm extractEntry core-js/math/tanh.js
+591 silly gunzTarPerm extractEntry core-js/math/atanh.js
+592 silly gunzTarPerm extractEntry core-js/math/trunc.js
+593 silly gunzTarPerm extractEntry core-js/math/asinh.js
+594 silly gunzTarPerm extractEntry core-js/math/umulh.js
+595 silly gunzTarPerm extractEntry core-js/math/imul.js
+596 silly gunzTarPerm extractEntry core-js/reflect/apply.js
+597 silly gunzTarPerm extractEntry core-js/reflect/get-metadata.js
+598 silly gunzTarPerm extractEntry core-js/reflect/get-own-metadata-keys.js
+599 silly gunzTarPerm extractEntry core-js/reflect/get-own-metadata.js
+600 silly gunzTarPerm extractEntry core-js/reflect/get-metadata-keys.js
+601 silly gunzTarPerm extractEntry core-js/reflect/get-prototype-of.js
+602 silly gunzTarPerm extractEntry core-js/reflect/get.js
+603 silly gunzTarPerm extractEntry core-js/reflect/has-metadata.js
+604 silly gunzTarPerm extractEntry core-js/reflect/has-own-metadata.js
+605 silly gunzTarPerm extractEntry core-js/reflect/has.js
+606 silly gunzTarPerm extractEntry core-js/reflect/enumerate.js
+607 silly gunzTarPerm extractEntry core-js/reflect/is-extensible.js
+608 silly gunzTarPerm extractEntry core-js/reflect/delete-property.js
+609 silly gunzTarPerm extractEntry core-js/reflect/metadata.js
+610 silly gunzTarPerm extractEntry core-js/reflect/delete-metadata.js
+611 silly gunzTarPerm extractEntry core-js/reflect/own-keys.js
+612 silly gunzTarPerm extractEntry core-js/reflect/define-property.js
+613 silly gunzTarPerm extractEntry core-js/reflect/prevent-extensions.js
+614 silly gunzTarPerm extractEntry core-js/reflect/define-metadata.js
+615 silly gunzTarPerm extractEntry core-js/reflect/set-prototype-of.js
+616 silly gunzTarPerm extractEntry core-js/reflect/construct.js
+617 silly gunzTarPerm extractEntry core-js/reflect/set.js
+618 silly gunzTarPerm extractEntry core-js/reflect/get-own-property-descriptor.js
+619 silly gunzTarPerm extractEntry core-js/symbol/async-iterator.js
+620 silly gunzTarPerm extractEntry core-js/symbol/iterator.js
+621 silly gunzTarPerm extractEntry core-js/symbol/key-for.js
+622 silly gunzTarPerm extractEntry core-js/symbol/match.js
+623 silly gunzTarPerm extractEntry core-js/symbol/is-concat-spreadable.js
+624 silly gunzTarPerm extractEntry core-js/symbol/replace.js
+625 silly gunzTarPerm extractEntry core-js/symbol/search.js
+626 silly gunzTarPerm extractEntry core-js/symbol/species.js
+627 silly gunzTarPerm extractEntry core-js/symbol/split.js
+628 silly gunzTarPerm extractEntry core-js/symbol/to-primitive.js
+629 silly gunzTarPerm extractEntry core-js/symbol/has-instance.js
+630 silly gunzTarPerm extractEntry core-js/symbol/to-string-tag.js
+631 silly gunzTarPerm extractEntry core-js/symbol/for.js
+632 silly gunzTarPerm extractEntry core-js/symbol/unscopables.js
+633 silly gunzTarPerm extractEntry core-js/symbol/observable.js
+634 silly gunzTarPerm extractEntry core-js/json/stringify.js
+635 silly gunzTarPerm extractEntry core-js/system/global.js
+636 silly gunzTarPerm extractEntry core-js/error/is-error.js
+637 silly gunzTarPerm extractEntry core-js/array/concat.js
+638 silly gunzTarPerm extractEntry core-js/array/index-of.js
+639 silly gunzTarPerm extractEntry core-js/array/join.js
+640 silly gunzTarPerm extractEntry core-js/array/keys.js
+641 silly gunzTarPerm extractEntry core-js/array/includes.js
+642 silly gunzTarPerm extractEntry core-js/array/map.js
+643 silly gunzTarPerm extractEntry core-js/array/of.js
+644 silly gunzTarPerm extractEntry core-js/array/pop.js
+645 silly gunzTarPerm extractEntry core-js/array/push.js
+646 silly gunzTarPerm extractEntry core-js/array/reduce-right.js
+647 silly gunzTarPerm extractEntry core-js/array/from.js
+648 silly gunzTarPerm extractEntry core-js/array/reduce.js
+649 silly gunzTarPerm extractEntry core-js/array/for-each.js
+650 silly gunzTarPerm extractEntry core-js/array/reverse.js
+651 silly gunzTarPerm extractEntry core-js/array/find.js
+652 silly gunzTarPerm extractEntry core-js/array/shift.js
+653 silly gunzTarPerm extractEntry core-js/array/find-index.js
+654 silly gunzTarPerm extractEntry core-js/array/slice.js
+655 silly gunzTarPerm extractEntry core-js/array/filter.js
+656 silly gunzTarPerm extractEntry core-js/array/some.js
+657 silly gunzTarPerm extractEntry core-js/array/fill.js
+658 silly gunzTarPerm extractEntry core-js/array/sort.js
+659 silly gunzTarPerm extractEntry core-js/array/every.js
+660 silly gunzTarPerm extractEntry core-js/array/splice.js
+661 silly gunzTarPerm extractEntry core-js/array/entries.js
+662 silly gunzTarPerm extractEntry core-js/array/unshift.js
+663 silly gunzTarPerm extractEntry core-js/array/copy-within.js
+664 silly gunzTarPerm extractEntry core-js/array/values.js
+665 silly gunzTarPerm extractEntry core-js/array/last-index-of.js
+666 silly gunzTarPerm extractEntry helpers/_async-to-generator.js
+667 silly gunzTarPerm extractEntry helpers/defaults.js
+668 silly gunzTarPerm extractEntry helpers/define-enumerable-properties.js
+669 silly gunzTarPerm extractEntry helpers/define-property.js
+670 silly gunzTarPerm extractEntry helpers/defineEnumerableProperties.js
+671 silly gunzTarPerm extractEntry helpers/createClass.js
+672 silly gunzTarPerm extractEntry helpers/extends.js
+673 silly gunzTarPerm extractEntry helpers/get.js
+674 silly gunzTarPerm extractEntry helpers/inherits.js
+675 silly gunzTarPerm extractEntry helpers/instanceof.js
+676 silly gunzTarPerm extractEntry helpers/interop-require-default.js
+677 silly gunzTarPerm extractEntry helpers/create-class.js
+678 silly gunzTarPerm extractEntry helpers/interop-require-wildcard.js
+679 silly gunzTarPerm extractEntry helpers/classCallCheck.js
+680 silly gunzTarPerm extractEntry helpers/interopRequireDefault.js
+681 silly gunzTarPerm extractEntry helpers/class-call-check.js
+682 silly gunzTarPerm extractEntry helpers/interopRequireWildcard.js
+683 silly gunzTarPerm extractEntry helpers/asyncToGenerator.js
+684 silly gunzTarPerm extractEntry helpers/jsx.js
+685 silly gunzTarPerm extractEntry helpers/async-to-generator.js
+686 silly gunzTarPerm extractEntry helpers/new-arrow-check.js
+687 silly gunzTarPerm extractEntry helpers/_typeof.js
+688 silly gunzTarPerm extractEntry helpers/newArrowCheck.js
+689 silly gunzTarPerm extractEntry helpers/_to-consumable-array.js
+690 silly gunzTarPerm extractEntry helpers/object-destructuring-empty.js
+691 silly gunzTarPerm extractEntry helpers/_to-array.js
+692 silly gunzTarPerm extractEntry helpers/object-without-properties.js
+693 silly gunzTarPerm extractEntry helpers/_temporal-undefined.js
+694 silly gunzTarPerm extractEntry helpers/objectDestructuringEmpty.js
+695 silly gunzTarPerm extractEntry helpers/_temporal-ref.js
+696 silly gunzTarPerm extractEntry helpers/objectWithoutProperties.js
+697 silly gunzTarPerm extractEntry helpers/_tagged-template-literal.js
+698 silly gunzTarPerm extractEntry helpers/possible-constructor-return.js
+699 silly gunzTarPerm extractEntry helpers/_tagged-template-literal-loose.js
+700 silly gunzTarPerm extractEntry helpers/possibleConstructorReturn.js
+701 silly gunzTarPerm extractEntry helpers/_sliced-to-array.js
+702 silly gunzTarPerm extractEntry helpers/self-global.js
+703 silly gunzTarPerm extractEntry helpers/_sliced-to-array-loose.js
+704 silly gunzTarPerm extractEntry helpers/selfGlobal.js
+705 silly gunzTarPerm extractEntry helpers/_set.js
+706 silly gunzTarPerm extractEntry helpers/set.js
+707 silly gunzTarPerm extractEntry helpers/_self-global.js
+708 silly gunzTarPerm extractEntry helpers/sliced-to-array-loose.js
+709 silly gunzTarPerm extractEntry helpers/_possible-constructor-return.js
+710 silly gunzTarPerm extractEntry helpers/sliced-to-array.js
+711 silly gunzTarPerm extractEntry helpers/_object-without-properties.js
+712 silly gunzTarPerm extractEntry helpers/slicedToArray.js
+713 silly gunzTarPerm extractEntry helpers/_object-destructuring-empty.js
+714 silly gunzTarPerm extractEntry helpers/slicedToArrayLoose.js
+715 silly gunzTarPerm extractEntry helpers/_new-arrow-check.js
+716 silly gunzTarPerm extractEntry helpers/tagged-template-literal-loose.js
+717 silly gunzTarPerm extractEntry helpers/_jsx.js
+718 silly gunzTarPerm extractEntry helpers/tagged-template-literal.js
+719 silly gunzTarPerm extractEntry helpers/_interop-require-wildcard.js
+720 silly gunzTarPerm extractEntry helpers/taggedTemplateLiteral.js
+721 silly gunzTarPerm extractEntry helpers/_interop-require-default.js
+722 silly gunzTarPerm extractEntry helpers/taggedTemplateLiteralLoose.js
+723 silly gunzTarPerm extractEntry helpers/_instanceof.js
+724 silly gunzTarPerm extractEntry helpers/temporal-ref.js
+725 silly gunzTarPerm extractEntry helpers/_inherits.js
+726 silly gunzTarPerm extractEntry helpers/temporal-undefined.js
+727 silly gunzTarPerm extractEntry helpers/_get.js
+728 silly gunzTarPerm extractEntry helpers/temporalRef.js
+729 silly gunzTarPerm extractEntry helpers/_extends.js
+730 silly gunzTarPerm extractEntry helpers/temporalUndefined.js
+731 silly gunzTarPerm extractEntry helpers/_define-property.js
+732 silly gunzTarPerm extractEntry helpers/to-array.js
+733 silly gunzTarPerm extractEntry helpers/_define-enumerable-properties.js
+734 silly gunzTarPerm extractEntry helpers/to-consumable-array.js
+735 silly gunzTarPerm extractEntry helpers/_defaults.js
+736 silly gunzTarPerm extractEntry helpers/toArray.js
+737 silly gunzTarPerm extractEntry helpers/_create-class.js
+738 silly gunzTarPerm extractEntry helpers/toConsumableArray.js
+739 silly gunzTarPerm extractEntry helpers/_class-call-check.js
+740 silly gunzTarPerm extractEntry helpers/typeof.js
+741 silly gunzTarPerm extractEntry helpers/defineProperty.js
+742 silly gunzTarPerm extractEntry regenerator/index.js
+743 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/package.json
+744 silly install resolved []
+745 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+746 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+747 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find/package.json
+748 info preinstall babel-register@6.16.3
+749 info linkStuff lodash.memoize@4.1.2
+750 silly linkStuff lodash.memoize@4.1.2 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
+751 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/package.json
+752 silly install resolved []
+753 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+754 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+755 verbose linkBins lodash.memoize@4.1.2
+756 verbose linkMans lodash.memoize@4.1.2
+757 verbose rebuildBundles lodash.memoize@4.1.2
+758 info install lodash.memoize@4.1.2
+759 info linkStuff lodash.find@4.6.0
+760 silly linkStuff lodash.find@4.6.0 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
+761 silly prepareForInstallMany adding path-exists@^1.0.0 from babel-register dependencies
+762 silly prepareForInstallMany adding source-map-support@^0.4.2 from babel-register dependencies
+763 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/package.json
+764 info postinstall lodash.memoize@4.1.2
+765 verbose unlock done using /Users/Minako/.npm/_locks/lodash-memoize-d46587bf717c6a14.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.memoize
+766 verbose linkBins lodash.find@4.6.0
+767 verbose linkMans lodash.find@4.6.0
+768 verbose rebuildBundles lodash.find@4.6.0
+769 info install lodash.find@4.6.0
+770 silly cache add args [ 'path-exists@^1.0.0', null ]
+771 verbose cache add spec path-exists@^1.0.0
+772 silly cache add args [ 'source-map-support@^0.4.2', null ]
+773 verbose cache add spec source-map-support@^0.4.2
+774 silly cache add parsed spec Result {
+774 silly cache add   raw: 'path-exists@^1.0.0',
+774 silly cache add   scope: null,
+774 silly cache add   name: 'path-exists',
+774 silly cache add   rawSpec: '^1.0.0',
+774 silly cache add   spec: '>=1.0.0 <2.0.0',
+774 silly cache add   type: 'range' }
+775 silly addNamed path-exists@>=1.0.0 <2.0.0
+776 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for path-exists
+777 silly addNameRange { name: 'path-exists', range: '>=1.0.0 <2.0.0', hasData: false }
+778 silly mapToRegistry name path-exists
+779 silly mapToRegistry using default registry
+780 silly mapToRegistry registry https://registry.npmjs.org/
+781 silly mapToRegistry data Result {
+781 silly mapToRegistry   raw: 'path-exists',
+781 silly mapToRegistry   scope: null,
+781 silly mapToRegistry   name: 'path-exists',
+781 silly mapToRegistry   rawSpec: '',
+781 silly mapToRegistry   spec: 'latest',
+781 silly mapToRegistry   type: 'tag' }
+782 silly mapToRegistry uri https://registry.npmjs.org/path-exists
+783 verbose addNameRange registry:https://registry.npmjs.org/path-exists not in flight; fetching
+784 silly cache add parsed spec Result {
+784 silly cache add   raw: 'source-map-support@^0.4.2',
+784 silly cache add   scope: null,
+784 silly cache add   name: 'source-map-support',
+784 silly cache add   rawSpec: '^0.4.2',
+784 silly cache add   spec: '>=0.4.2 <0.5.0',
+784 silly cache add   type: 'range' }
+785 silly addNamed source-map-support@>=0.4.2 <0.5.0
+786 verbose addNamed ">=0.4.2 <0.5.0" is a valid semver range for source-map-support
+787 silly addNameRange { name: 'source-map-support',
+787 silly addNameRange   range: '>=0.4.2 <0.5.0',
+787 silly addNameRange   hasData: false }
+788 silly mapToRegistry name source-map-support
+789 silly mapToRegistry using default registry
+790 silly mapToRegistry registry https://registry.npmjs.org/
+791 silly mapToRegistry data Result {
+791 silly mapToRegistry   raw: 'source-map-support',
+791 silly mapToRegistry   scope: null,
+791 silly mapToRegistry   name: 'source-map-support',
+791 silly mapToRegistry   rawSpec: '',
+791 silly mapToRegistry   spec: 'latest',
+791 silly mapToRegistry   type: 'tag' }
+792 silly mapToRegistry uri https://registry.npmjs.org/source-map-support
+793 verbose addNameRange registry:https://registry.npmjs.org/source-map-support not in flight; fetching
+794 info postinstall lodash.find@4.6.0
+795 verbose unlock done using /Users/Minako/.npm/_locks/lodash-find-7224c64916b25dfb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/lodash.find
+796 verbose request uri https://registry.npmjs.org/path-exists
+797 verbose request no auth needed
+798 info attempt registry request try #1 at 1:51:37 AM
+799 verbose etag "8WY41M4OVSF6VU10063GBETR9"
+800 http request GET https://registry.npmjs.org/path-exists
+801 verbose request uri https://registry.npmjs.org/source-map-support
+802 verbose request no auth needed
+803 info attempt registry request try #1 at 1:51:37 AM
+804 verbose etag "EV0LKHBQYQ150CF5DQGTDL7J3"
+805 http request GET https://registry.npmjs.org/source-map-support
+806 http 304 https://registry.npmjs.org/path-exists
+807 verbose headers { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+807 verbose headers   via: '1.1 varnish',
+807 verbose headers   'cache-control': 'max-age=300',
+807 verbose headers   etag: '"8WY41M4OVSF6VU10063GBETR9"',
+807 verbose headers   age: '178',
+807 verbose headers   connection: 'keep-alive',
+807 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+807 verbose headers   'x-cache': 'HIT',
+807 verbose headers   'x-cache-hits': '2',
+807 verbose headers   'x-timer': 'S1477309898.855444,VS0,VE0',
+807 verbose headers   vary: 'Accept-Encoding' }
+808 silly get cb [ 304,
+808 silly get   { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+808 silly get     via: '1.1 varnish',
+808 silly get     'cache-control': 'max-age=300',
+808 silly get     etag: '"8WY41M4OVSF6VU10063GBETR9"',
+808 silly get     age: '178',
+808 silly get     connection: 'keep-alive',
+808 silly get     'x-served-by': 'cache-sjc3147-SJC',
+808 silly get     'x-cache': 'HIT',
+808 silly get     'x-cache-hits': '2',
+808 silly get     'x-timer': 'S1477309898.855444,VS0,VE0',
+808 silly get     vary: 'Accept-Encoding' } ]
+809 verbose etag https://registry.npmjs.org/path-exists from cache
+810 verbose get saving path-exists to /Users/Minako/.npm/registry.npmjs.org/path-exists/.cache.json
+811 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+812 http 304 https://registry.npmjs.org/source-map-support
+813 verbose headers { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+813 verbose headers   via: '1.1 varnish',
+813 verbose headers   'cache-control': 'max-age=300',
+813 verbose headers   etag: '"EV0LKHBQYQ150CF5DQGTDL7J3"',
+813 verbose headers   age: '47',
+813 verbose headers   connection: 'keep-alive',
+813 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+813 verbose headers   'x-cache': 'HIT',
+813 verbose headers   'x-cache-hits': '1',
+813 verbose headers   'x-timer': 'S1477309898.856839,VS0,VE0',
+813 verbose headers   vary: 'Accept-Encoding' }
+814 silly get cb [ 304,
+814 silly get   { date: 'Mon, 24 Oct 2016 11:51:38 GMT',
+814 silly get     via: '1.1 varnish',
+814 silly get     'cache-control': 'max-age=300',
+814 silly get     etag: '"EV0LKHBQYQ150CF5DQGTDL7J3"',
+814 silly get     age: '47',
+814 silly get     connection: 'keep-alive',
+814 silly get     'x-served-by': 'cache-sjc3147-SJC',
+814 silly get     'x-cache': 'HIT',
+814 silly get     'x-cache-hits': '1',
+814 silly get     'x-timer': 'S1477309898.856839,VS0,VE0',
+814 silly get     vary: 'Accept-Encoding' } ]
+815 verbose etag https://registry.npmjs.org/source-map-support from cache
+816 verbose get saving source-map-support to /Users/Minako/.npm/registry.npmjs.org/source-map-support/.cache.json
+817 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+818 silly addNameRange number 2 { name: 'path-exists', range: '>=1.0.0 <2.0.0', hasData: true }
+819 silly addNameRange versions [ 'path-exists', [ '1.0.0', '2.0.0', '2.1.0', '3.0.0' ] ]
+820 silly addNamed path-exists@1.0.0
+821 verbose addNamed "1.0.0" is a plain semver version for path-exists
+822 silly addNameRange number 2 { name: 'source-map-support',
+822 silly addNameRange   range: '>=0.4.2 <0.5.0',
+822 silly addNameRange   hasData: true }
+823 silly addNameRange versions [ 'source-map-support',
+823 silly addNameRange   [ '0.1.0',
+823 silly addNameRange     '0.1.1',
+823 silly addNameRange     '0.1.2',
+823 silly addNameRange     '0.1.3',
+823 silly addNameRange     '0.1.4',
+823 silly addNameRange     '0.1.5',
+823 silly addNameRange     '0.1.6',
+823 silly addNameRange     '0.1.7',
+823 silly addNameRange     '0.1.8',
+823 silly addNameRange     '0.1.9',
+823 silly addNameRange     '0.2.0',
+823 silly addNameRange     '0.2.1',
+823 silly addNameRange     '0.2.2',
+823 silly addNameRange     '0.2.3',
+823 silly addNameRange     '0.2.4',
+823 silly addNameRange     '0.2.5',
+823 silly addNameRange     '0.2.6',
+823 silly addNameRange     '0.2.7',
+823 silly addNameRange     '0.2.8',
+823 silly addNameRange     '0.2.9',
+823 silly addNameRange     '0.2.10',
+823 silly addNameRange     '0.3.0',
+823 silly addNameRange     '0.3.1',
+823 silly addNameRange     '0.3.2',
+823 silly addNameRange     '0.3.3',
+823 silly addNameRange     '0.4.0',
+823 silly addNameRange     '0.4.1',
+823 silly addNameRange     '0.4.2',
+823 silly addNameRange     '0.4.3',
+823 silly addNameRange     '0.4.4',
+823 silly addNameRange     '0.4.5' ] ]
+824 silly addNamed source-map-support@0.4.5
+825 verbose addNamed "0.4.5" is a plain semver version for source-map-support
+826 silly cache afterAdd path-exists@1.0.0
+827 verbose afterAdd /Users/Minako/.npm/path-exists/1.0.0/package/package.json not in flight; writing
+828 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+829 silly cache afterAdd source-map-support@0.4.5
+830 verbose afterAdd /Users/Minako/.npm/source-map-support/0.4.5/package/package.json not in flight; writing
+831 verbose correctMkdir /Users/Minako/.npm correctMkdir not in flight; initializing
+832 verbose afterAdd /Users/Minako/.npm/path-exists/1.0.0/package/package.json written
+833 verbose afterAdd /Users/Minako/.npm/source-map-support/0.4.5/package/package.json written
+834 silly install resolved [ { name: 'path-exists',
+834 silly install resolved     version: '1.0.0',
+834 silly install resolved     description: 'Check if a path exists',
+834 silly install resolved     license: 'MIT',
+834 silly install resolved     repository:
+834 silly install resolved      { type: 'git',
+834 silly install resolved        url: 'git+https://github.com/sindresorhus/path-exists.git' },
+834 silly install resolved     author:
+834 silly install resolved      { name: 'Sindre Sorhus',
+834 silly install resolved        email: 'sindresorhus@gmail.com',
+834 silly install resolved        url: 'sindresorhus.com' },
+834 silly install resolved     engines: { node: '>=0.10.0' },
+834 silly install resolved     scripts: { test: 'node test.js' },
+834 silly install resolved     files: [ 'index.js' ],
+834 silly install resolved     keywords:
+834 silly install resolved      [ 'path',
+834 silly install resolved        'exists',
+834 silly install resolved        'exist',
+834 silly install resolved        'file',
+834 silly install resolved        'filepath',
+834 silly install resolved        'fs',
+834 silly install resolved        'filesystem',
+834 silly install resolved        'file-system',
+834 silly install resolved        'access',
+834 silly install resolved        'stat' ],
+834 silly install resolved     devDependencies: { ava: '0.0.4' },
+834 silly install resolved     gitHead: 'be563ef9f750ec4fcbd5cc77603c869bdee05658',
+834 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/path-exists/issues' },
+834 silly install resolved     homepage: 'https://github.com/sindresorhus/path-exists',
+834 silly install resolved     _id: 'path-exists@1.0.0',
+834 silly install resolved     _shasum: 'd5a8998eb71ef37a74c34eb0d9eba6e878eea081',
+834 silly install resolved     _from: 'path-exists@>=1.0.0 <2.0.0',
+834 silly install resolved     _npmVersion: '2.7.4',
+834 silly install resolved     _nodeVersion: '0.12.2',
+834 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+834 silly install resolved     dist:
+834 silly install resolved      { shasum: 'd5a8998eb71ef37a74c34eb0d9eba6e878eea081',
+834 silly install resolved        tarball: 'https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz' },
+834 silly install resolved     maintainers: [ [Object] ],
+834 silly install resolved     directories: {},
+834 silly install resolved     _resolved: 'https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz',
+834 silly install resolved     readme: 'ERROR: No README data found!' },
+834 silly install resolved   { name: 'source-map-support',
+834 silly install resolved     description: 'Fixes stack traces for files with source maps',
+834 silly install resolved     version: '0.4.5',
+834 silly install resolved     main: './source-map-support.js',
+834 silly install resolved     scripts:
+834 silly install resolved      { build: 'node build.js',
+834 silly install resolved        'serve-tests': 'http-server -p 1336',
+834 silly install resolved        test: 'mocha' },
+834 silly install resolved     dependencies: { 'source-map': '^0.5.3' },
+834 silly install resolved     devDependencies:
+834 silly install resolved      { browserify: '3.44.2',
+834 silly install resolved        'coffee-script': '1.7.1',
+834 silly install resolved        'http-server': '^0.8.5',
+834 silly install resolved        mocha: '1.18.2' },
+834 silly install resolved     repository:
+834 silly install resolved      { type: 'git',
+834 silly install resolved        url: 'git+https://github.com/evanw/node-source-map-support.git' },
+834 silly install resolved     bugs: { url: 'https://github.com/evanw/node-source-map-support/issues' },
+834 silly install resolved     license: 'MIT',
+834 silly install resolved     gitHead: 'bdea7fefc11c78a733a08d5228a747801df191e8',
+834 silly install resolved     homepage: 'https://github.com/evanw/node-source-map-support#readme',
+834 silly install resolved     _id: 'source-map-support@0.4.5',
+834 silly install resolved     _shasum: '4438df4219e1b3c7feb674614b4c67f9722db1e4',
+834 silly install resolved     _from: 'source-map-support@>=0.4.2 <0.5.0',
+834 silly install resolved     _npmVersion: '3.10.7',
+834 silly install resolved     _nodeVersion: '6.7.0',
+834 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+834 silly install resolved     dist:
+834 silly install resolved      { shasum: '4438df4219e1b3c7feb674614b4c67f9722db1e4',
+834 silly install resolved        tarball: 'https://registry.npmjs.org/source-map-support/-/source-map-support-0.4.5.tgz' },
+834 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+834 silly install resolved     _npmOperationalInternal:
+834 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+834 silly install resolved        tmp: 'tmp/source-map-support-0.4.5.tgz_1476773585548_0.42083092918619514' },
+834 silly install resolved     directories: {},
+834 silly install resolved     _resolved: 'https://registry.npmjs.org/source-map-support/-/source-map-support-0.4.5.tgz',
+834 silly install resolved     readme: 'ERROR: No README data found!' } ]
+835 info install path-exists@1.0.0 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+836 info install source-map-support@0.4.5 into /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+837 info installOne path-exists@1.0.0
+838 verbose installOne of path-exists to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register not in flight; installing
+839 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+840 info installOne source-map-support@0.4.5
+841 verbose installOne of source-map-support to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register not in flight; installing
+842 verbose correctMkdir /Users/Minako/.npm/_locks correctMkdir not in flight; initializing
+843 verbose lock using /Users/Minako/.npm/_locks/path-exists-39c8920a47dc27aa.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+844 verbose lock using /Users/Minako/.npm/_locks/source-map-support-bc14e4f91d18b2bb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+845 silly install write writing path-exists 1.0.0 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+846 silly install write writing source-map-support 0.4.5 to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+847 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+848 verbose unbuild node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+849 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+850 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+851 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support is being purged from base /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+852 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+853 verbose tar unpack /Users/Minako/.npm/path-exists/1.0.0/package.tgz
+854 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+855 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists is being purged
+856 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+857 verbose tar unpack /Users/Minako/.npm/source-map-support/0.4.5/package.tgz
+858 verbose tar unpacking to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+859 silly gentlyRm /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support is being purged
+860 verbose gentlyRm don't care about contents; nuking /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+861 silly gunzTarPerm modes [ '755', '644' ]
+862 silly gunzTarPerm modes [ '755', '644' ]
+863 silly gunzTarPerm extractEntry package.json
+864 silly gunzTarPerm extractEntry package.json
+865 silly gunzTarPerm extractEntry index.js
+866 silly gunzTarPerm extractEntry license
+867 silly gunzTarPerm extractEntry .npmignore
+868 silly gunzTarPerm extractEntry README.md
+869 silly gunzTarPerm extractEntry readme.md
+870 silly gunzTarPerm extractEntry test.js
+871 silly gunzTarPerm extractEntry browser-source-map-support.js
+872 silly gunzTarPerm extractEntry build.js
+873 silly gunzTarPerm extractEntry source-map-support.js
+874 silly gunzTarPerm extractEntry register.js
+875 silly gunzTarPerm extractEntry LICENSE.md
+876 silly gunzTarPerm extractEntry header-test/script.js
+877 silly gunzTarPerm extractEntry header-test/server.js
+878 silly gunzTarPerm extractEntry header-test/index.html
+879 silly gunzTarPerm extractEntry header-test/script.coffee
+880 silly gunzTarPerm extractEntry header-test/script.map
+881 silly gunzTarPerm extractEntry amd-test/browser-source-map-support.js
+882 silly gunzTarPerm extractEntry amd-test/require.js
+883 silly gunzTarPerm extractEntry amd-test/script.js
+884 silly gunzTarPerm extractEntry amd-test/index.html
+885 silly gunzTarPerm extractEntry amd-test/script.coffee
+886 silly gunzTarPerm extractEntry amd-test/script.map
+887 silly gunzTarPerm extractEntry .travis.yml
+888 silly gunzTarPerm extractEntry browser-test/script.js
+889 silly gunzTarPerm extractEntry browser-test/index.html
+890 silly gunzTarPerm extractEntry browser-test/script.coffee
+891 silly gunzTarPerm extractEntry browser-test/script.map
+892 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists/package.json
+893 info preinstall path-exists@1.0.0
+894 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists/package.json
+895 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists/package.json
+896 silly install resolved []
+897 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+898 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+899 info linkStuff path-exists@1.0.0
+900 silly linkStuff path-exists@1.0.0 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules as its parent node_modules
+901 verbose linkBins path-exists@1.0.0
+902 verbose linkMans path-exists@1.0.0
+903 verbose rebuildBundles path-exists@1.0.0
+904 info install path-exists@1.0.0
+905 info postinstall path-exists@1.0.0
+906 verbose unlock done using /Users/Minako/.npm/_locks/path-exists-39c8920a47dc27aa.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/path-exists
+907 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support/package.json
+908 info preinstall source-map-support@0.4.5
+909 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support/package.json
+910 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support/package.json
+911 silly install resolved []
+912 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+913 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+914 info linkStuff source-map-support@0.4.5
+915 silly linkStuff source-map-support@0.4.5 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules as its parent node_modules
+916 verbose linkBins source-map-support@0.4.5
+917 verbose linkMans source-map-support@0.4.5
+918 verbose rebuildBundles source-map-support@0.4.5
+919 info install source-map-support@0.4.5
+920 info postinstall source-map-support@0.4.5
+921 verbose unlock done using /Users/Minako/.npm/_locks/source-map-support-bc14e4f91d18b2bb.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register/node_modules/source-map-support
+922 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+923 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+924 info linkStuff babel-register@6.16.3
+925 silly linkStuff babel-register@6.16.3 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
+926 verbose linkBins babel-register@6.16.3
+927 verbose linkMans babel-register@6.16.3
+928 verbose rebuildBundles babel-register@6.16.3
+929 verbose rebuildBundles [ 'path-exists', 'source-map-support' ]
+930 info install babel-register@6.16.3
+931 info postinstall babel-register@6.16.3
+932 verbose unlock done using /Users/Minako/.npm/_locks/babel-register-bdca4dc0189c5195.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-register
+933 verbose write writing to /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime/package.json
+934 info preinstall babel-runtime@6.11.6
+935 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime/package.json
+936 verbose readDependencies loading dependencies from /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime/package.json
+937 silly install resolved []
+938 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+939 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+940 info linkStuff babel-runtime@6.11.6
+941 silly linkStuff babel-runtime@6.11.6 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules as its parent node_modules
+942 verbose linkBins babel-runtime@6.11.6
+943 verbose linkMans babel-runtime@6.11.6
+944 verbose rebuildBundles babel-runtime@6.11.6
+945 info install babel-runtime@6.11.6
+946 info postinstall babel-runtime@6.11.6
+947 verbose unlock done using /Users/Minako/.npm/_locks/babel-runtime-fb32e97207da3282.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor/node_modules/babel-runtime
+948 verbose about to build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+949 info build /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+950 info linkStuff eslint-plugin-meteor@4.0.1
+951 silly linkStuff eslint-plugin-meteor@4.0.1 has /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules as its parent node_modules
+952 verbose linkBins eslint-plugin-meteor@4.0.1
+953 verbose linkMans eslint-plugin-meteor@4.0.1
+954 verbose rebuildBundles eslint-plugin-meteor@4.0.1
+955 verbose rebuildBundles [ 'babel-register',
+955 verbose rebuildBundles   'babel-runtime',
+955 verbose rebuildBundles   'lodash.find',
+955 verbose rebuildBundles   'lodash.memoize' ]
+956 info install eslint-plugin-meteor@4.0.1
+957 info postinstall eslint-plugin-meteor@4.0.1
+958 verbose unlock done using /Users/Minako/.npm/_locks/eslint-plugin-meteor-2ed0991029f538ae.lock for /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/node_modules/eslint-plugin-meteor
+959 verbose validateInstall loading /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app/package.json for validation
+960 verbose stack Error: The package eslint@3.8.1 does not satisfy its siblings' peerDependencies requirements!
+960 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+960 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+960 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+960 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+960 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+960 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+960 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+960 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+960 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+960 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+961 verbose cwd /Users/Minako/Documents/AUHManoa/Senior/Fall16/ICS314/final-project-mockup/app
+962 error Darwin 16.0.0
+963 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "eslint-plugin-meteor" "--save-dev"
+964 error node v4.5.0
+965 error npm  v2.15.9
+966 error code EPEERINVALID
+967 error peerinvalid The package eslint@3.8.1 does not satisfy its siblings' peerDependencies requirements!
+967 error peerinvalid Peer eslint-config-airbnb@7.0.0 wants eslint@^2.7.0
+967 error peerinvalid Peer eslint-plugin-meteor@4.0.1 wants eslint@^3.7.0
+968 verbose exit [ 1, true ]

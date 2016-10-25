@@ -1,0 +1,53 @@
+<template name="Edit_Profile_Page">
+  {{#if Template.subscriptionsReady}}
+    <div style="margin-top: 20px" class="ui container">
+      <form class="ui form contact-data-form {{ errorClass }}">
+        <h4 class="ui dividing header">Edit Profile</h4>
+        <div class="field">
+          <label>Name</label>
+          <div class="two fields">
+            <div class="field">
+              <input type="text" name="first" id="first" placeholder="First Name" value="{{ contactField 'first' }}">
+              {{#if displayFieldError 'first' }}
+              <div class="ui error message">
+                <p>You must specify your first name.</p>
+              </div>
+              {{/if}}
+            </div>
+            <div class="field">
+              <input type="text" name="last" id="last" placeholder="Last Name" value="{{ contactField 'last' }}">
+              {{#if displayFieldError 'last' }}
+              <div class="ui error message">
+                <p>You must specify your last name.</p>
+              </div>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Previous Course</label>
+          <input type="text" name="preCourse" id="preCourse" placeholder="Previous Course" value="{{ contactField 'preCourse' }}">
+          {{#if displayFieldError 'preCourse' }}
+          <div class="ui error message">
+            <p>You must specify your Previous Course.</p>
+          </div>
+          {{/if}}
+        </div>
+
+        <div class="field">
+          <label>Current Course</label>
+          <input type="text" name="currCourse" id="currCourse" placeholder="Current Cours" value="{{ contactField 'currCourse' }}">
+          {{#if displayFieldError 'currCourse' }}
+            <div class="ui error message">
+              <p>You must specify your Current Cours.</p>
+            </div>
+          {{/if}}
+        </div>
+
+        <button class="ui button" type="submit">Update</button>
+        <button class="ui button delete" type="button">Delete</button>
+      </form>
+    </div>
+  {{/if}}
+</template>

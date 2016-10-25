@@ -34,24 +34,24 @@ Template.Add_Profile_Page.helpers({
 // });
 
 Template.Add_Profile_Page.events({
-  'submit .contact-data-form'(event, instance) {
+  'submit .profile-data-form'(event, instance) {
     event.preventDefault();
     // Get name (text field)
     const first = event.target.first.value;
     const last = event.target.last.value;
-    const address = event.target.address.value;
-    const telephone = event.target.telephone.value;
-    const email = event.target.email.value;
-    const newContact = { first, last, address, telephone, email };
+    const preCourse = event.target.preCourse.value;
+    const currCourse = event.target.currCourse.value;
+    const newProfile = { first, last, preCourse, currCourse };
     // Clear out any old validation errors.
     instance.context.resetValidation();
     // Invoke clean so that newStudentData reflects what will be inserted.
-    ProfileSchema.clean(newContact);
+    ProfileSchema.clean(newProfile);
     // Determine validity.
-    instance.context.validate(newContact);
+    instance.context.validate(newProfile);
     if (instance.context.isValid()) {
-      Profile.insert(newContact);
+      Profile.insert(newProfile);
       instance.messageFlags.set(displayErrorMessages, false);
+      window.alert('Thank you! Your profile added!');
       FlowRouter.go('Home_Page');
     } else {
       instance.messageFlags.set(displayErrorMessages, true);
