@@ -8,7 +8,9 @@
             <th>First</th>
             <th>Last</th>
             <th>Previous Course</th>
+            <th>Courses you want to teach</th>
             <th>Current Course</th>
+            <th>Courses you want to be taught</th>
             <th>Edit</th>
           </tr>
           </thead>
@@ -19,7 +21,9 @@
               <td>{{profile.first}}</td>
               <td>{{profile.last}}</td>
               <td>{{profile.preCourse}}</td>
+              <td>{{profile.sensei}}</td>
               <td>{{profile.currCourse}}</td>
+              <td>{{profile.grasshopper}}</td>
               <td><a href="{{pathFor 'Edit_Profile_Page' _id=profile._id }}">Edit</a></td>
             </tr>
           {{/each}}

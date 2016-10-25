@@ -26,23 +26,51 @@
         </div>
 
         <div class="field">
-          <label>Previous Course</label>
-          <input type="text" name="preCourse" id="preCourse" placeholder="Previous Course" value="{{ contactField 'preCourse' }}">
-          {{#if displayFieldError 'preCourse' }}
-          <div class="ui error message">
-            <p>You must specify your Previous Course.</p>
+          <div class="two fields">
+            <div class="field">
+              <label>Previous Course</label>
+              <input type="text" name="preCourse" id="preCourse" placeholder="Previous Course" value="{{ contactField 'preCourse' }}">
+              {{#if displayFieldError 'preCourse' }}
+              <div class="ui error message">
+                <p>You must specify your Previous Course.</p>
+              </div>
+              {{/if}}
+            </div>
+
+            <div class="field">
+              <label>Courses you want to teach</label>
+              <input type="text" name="sensei" id="sensei" placeholder="Courses you want to teach" value="{{ contactField 'sensei' }}">
+              {{#if displayFieldError 'sensei' }}
+                <div class="ui error message">
+                  <p>You must specify your Courses you want to teach</p>
+                </div>
+              {{/if}}
+            </div>
           </div>
-          {{/if}}
         </div>
 
         <div class="field">
-          <label>Current Course</label>
-          <input type="text" name="currCourse" id="currCourse" placeholder="Current Cours" value="{{ contactField 'currCourse' }}">
-          {{#if displayFieldError 'currCourse' }}
-            <div class="ui error message">
-              <p>You must specify your Current Cours.</p>
+          <div class="two fields">
+            <div class="field">
+              <label>Current Course</label>
+              <input type="text" name="currCourse" id="currCourse" placeholder="Current Cours" value="{{ contactField 'currCourse' }}">
+              {{#if displayFieldError 'currCourse' }}
+                <div class="ui error message">
+                  <p>You must specify your Current Cours.</p>
+                </div>
+              {{/if}}
             </div>
-          {{/if}}
+
+            <div class="field">
+              <label>Courses you want to be taught</label>
+              <input type="text" name="grasshopper" id="grasshopper" placeholder="Courses you want to be taught" value="{{ contactField 'grasshopper' }}">
+              {{#if displayFieldError 'grasshopper' }}
+                <div class="ui error message">
+                  <p>You must specify your courses you want to be taught</p>
+                </div>
+              {{/if}}
+            </div>
+          </div>
         </div>
 
         <button class="ui button" type="submit">Update</button>
