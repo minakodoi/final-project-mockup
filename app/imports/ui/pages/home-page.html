@@ -1,8 +1,13 @@
 <template name="Home_Page">
   <div class="ui container">
     <div style="margin-top: 20px" class="ui piled segment">
-      <h2 class="ui header">DO YOU WANT TO STUDY WITH SOMEONE?</h2>
-      <p>If you want to find someone to study together, use this site!</p>
+      <h1 class="ui centered header">DO YOU WANT TO STUDY WITH SOMEONE?</h1>
+      <h4 class="ui header">If you want to find someone to study together, use this site!</h4>
+      <h4 class="ui header">Please log-in with @hawaii.edu address :)</h4>
+    {{#if currentUser}}
+      <h3 class="ui header">Thank you for using our page! <br>
+      Create your profile and find study buddy!!</h3>
+    {{/if}}
     </div>
   </div>
 </template>
