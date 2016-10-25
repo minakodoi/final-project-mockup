@@ -18,4 +18,7 @@ import './list-stuff-page.js';
 import './list-profile-page.html';
 import './list-profile-page.js';
 
+import './list-course-page.html';
+import './list-course-page.js';
+
 //import './calendar.html';
