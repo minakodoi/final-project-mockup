@@ -1,4 +1,4 @@
-![](https://github.com/minakodoi/final-project-mockup/blob/master/doc/home_logout.png)
+![Home page before log in](https://github.com/minakodoi/final-project-mockup/blob/master/doc/home_logout.png)
 
 Meteor-application-template is a sample Meteor 1.4 application that illustrates:
 
