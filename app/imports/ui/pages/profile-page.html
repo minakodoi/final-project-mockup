@@ -1,94 +1,55 @@
 <template name="Profile_Page">
   {{#if Template.subscriptionsReady}}
     <div style="margin-top: 20px" class="ui container">
-      <form class="ui form contact-data-form {{ errorClass }}">
+      <!--<form class="ui form contact-data-form {{ errorClass }}">-->
         <h4 class="ui dividing header">Profile</h4>
-        <div class="ui right column">
-          <img class="ui small circular image" src="_____">
-        </div>
-        <div class="left column">
-          <label>Name</label>
-          <div class="two fields">
-            <div class="field">
-              <a type="text">{{ profileField 'first' }}</a>
-              {{#if displayFieldError 'first' }}
-              <div class="ui error message">
-                <p>You must specify your first name.</p>
-              </div>
-              {{/if}}
+        <div class="ui four wide column">
+          <div class="ui fluid card">
+            <div class="ui small image">
+              <img src="/images/user.png">
             </div>
-            <div class="field">
-              <input type="text" name="last" id="last" placeholder="Last Name" value="{{ profileField 'last' }}">
-              {{#if displayFieldError 'last' }}
-              <div class="ui error message">
-                <p>You must specify your last name.</p>
-              </div>
-              {{/if}}
+            <div class="content">
+              <div class="ui header">{{ profileField 'first' }} {{ profileField 'last' }}</div>
             </div>
           </div>
         </div>
-
-        <div class="field">
-          <div class="two fields">
-            <div class="field">
-              <label>Previous Course</label>
-              <input type="text" name="preCourse" id="preCourse" placeholder="Previous Course" value="{{ profileField 'preCourse' }}">
-              {{#if displayFieldError 'preCourse' }}
-              <div class="ui error message">
-                <p>You must specify your Previous Course.</p>
-              </div>
-              {{/if}}
-            </div>
-
-            <div class="field">
-              <label>Courses you want to teach</label>
-              <input type="text" name="sensei" id="sensei" placeholder="Courses you want to teach" value="{{ profileField 'sensei' }}">
-              {{#if displayFieldError 'sensei' }}
-                <div class="ui error message">
-                  <p>You must specify your Courses you want to teach</p>
-                </div>
-              {{/if}}
-            </div>
-          </div>
+        <div class="ui four wide column">
+          <table class="ui teal celled table">
+            <tbody>
+             <tr>
+              <td>
+                <div class="content">Previous Courses</div>
+              </td>
+              <td>{{ profileField 'preCourse' }}</td>
+             </tr>
+             <tr>
+               <td>
+                 <div class="content">Current Courses</div>
+               </td>
+               <td>{{ profileField 'currCourse' }}</td>
+             </tr>
+             <tr>
+               <td>
+                 <div class="content">Teaching Courses</div>
+               </td>
+               <td>{{ profileField 'sensei' }}</td>
+             </tr>
+             <tr>
+               <td>
+                 <div class="content">Learning Courses</div>
+               </td>
+               <td>{{ profileField 'grasshopper' }}</td>
+             </tr>
+             <tr>
+               <td>
+                 <div class="content">Description</div>
+               </td>
+               <td>{{ profileField 'description' }}</td>
+             </tr>
+            </tbody>
+          </table>
         </div>
-
-        <div class="field">
-          <div class="two fields">
-            <div class="field">
-              <label>Current Course</label>
-              <input type="text" name="currCourse" id="currCourse" placeholder="Current Cours" value="{{ profileField 'currCourse' }}">
-              {{#if displayFieldError 'currCourse' }}
-                <div class="ui error message">
-                  <p>You must specify your Current Cours.</p>
-                </div>
-              {{/if}}
-            </div>
-
-            <div class="field">
-              <label>Courses you want to be taught</label>
-              <input type="text" name="grasshopper" id="grasshopper" placeholder="Courses you want to be taught" value="{{ profileField 'grasshopper' }}">
-              {{#if displayFieldError 'grasshopper' }}
-                <div class="ui error message">
-                  <p>You must specify your courses you want to be taught</p>
-                </div>
-              {{/if}}
-            </div>
-          </div>
-        </div>
-
-        <div class="field">
-          <label>Description of yourself</label>
-          <input type="text" name="description" id="description" placeholder="Description of yourself" value="{{ profileField 'description' }}">
-          {{#if displayFieldError 'description' }}
-            <div class="ui error message">
-              <p>You must specify description of yourselft</p>
-            </div>
-          {{/if}}
-        </div>
-
-        <button class="ui button" type="submit">Update</button>
-        <button class="ui button delete" type="button">Delete</button>
-      </form>
+      <!--</form>-->
     </div>
   {{/if}}
 </template>
