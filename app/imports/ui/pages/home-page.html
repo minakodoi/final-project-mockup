@@ -6,10 +6,12 @@
       <h3 class="ui header">ICS students often spend more time than they need on their homework and don’t learn the material as effectively as they could, because they study alone and do not leverage the power of face-to-face study groups with peer mentors.</h3>
       <h3 class="ui header">So, this website, Study Buddy is a website for UHM ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic!</h3>
 
-      <h3 class="ui header">To use this site, please log-in with @hawaii.edu address :)</h3>
     {{#if currentUser}}
       <h3 class="ui header">Thank you for using our page! <br>
       Create your profile and find study buddy!!</h3>
+      <p>Welcome {{ user }}</p>
+      {{else}}
+      <h3 class="ui header">To use this site, please log-in with @hawaii.edu address :)</h3>
     {{/if}}
     </div>
   </div>

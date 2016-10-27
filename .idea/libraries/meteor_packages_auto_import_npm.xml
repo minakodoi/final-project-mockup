@@ -4684,11 +4684,13 @@
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/aggregation_cursor.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/insert_bench.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/mongo_client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/atoy40_accounts-cas/0.0.2/npm/node_modules/cas/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/url_parser.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/admin.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/read_preference.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/collection.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/atoy40_accounts-cas/0.0.2/npm/node_modules/cas/lib/cas.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/cursor.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/topology_base.js" />
@@ -9661,11 +9663,13 @@
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/aggregation_cursor.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/insert_bench.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/mongo_client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/atoy40_accounts-cas/0.0.2/npm/node_modules/cas/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/url_parser.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/admin.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/read_preference.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/collection.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/atoy40_accounts-cas/0.0.2/npm/node_modules/cas/lib/cas.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/cursor.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.5.49/npm/node_modules/mongodb/lib/topology_base.js" />

@@ -18,14 +18,14 @@ Template.Cas_Login.events({
    * @param event The click event.
    * @returns {boolean} False.
    */
-  'click .cas-login': function casLogin(event) {
+  'click .cas-login': function casLogin(event, instance) {
     event.preventDefault();
     const callback = function loginCallback(error) {
       if (error) {
         console.log(error);
       }
     };
-    Meteor.loginWithCas([callback]);
+    Meteor.loginWithCas(callback);
     return false;
   },
 });
