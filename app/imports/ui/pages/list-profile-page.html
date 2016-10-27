@@ -5,8 +5,7 @@
         <table style="margin-top: 20px" class="ui celled table">
           <thead>
           <tr>
-            <th>First</th>
-            <th>Last</th>
+            <th>Name</th>
             <th>Previous Course</th>
             <th>Courses you want to teach</th>
             <th>Current Course</th>
@@ -19,8 +18,7 @@
           <tbody>
           {{#each profile in profileList}}
             <tr>
-              <td>{{profile.first}}</td>
-              <td>{{profile.last}}</td>
+              <td><a href="{{pathFor 'Profile_Page' _id=profile._id }}">{{profile.first}} {{profile.last}}</a></td>
               <td>{{profile.preCourse}}</td>
               <td>{{profile.sensei}}</td>
               <td>{{profile.currCourse}}</td>

@@ -1,13 +1,16 @@
-<template name="Edit_Profile_Page">
+<template name="Profile_Page">
   {{#if Template.subscriptionsReady}}
     <div style="margin-top: 20px" class="ui container">
       <form class="ui form contact-data-form {{ errorClass }}">
-        <h4 class="ui dividing header">Edit Profile</h4>
-        <div class="field">
+        <h4 class="ui dividing header">Profile</h4>
+        <div class="ui right column">
+          <img class="ui small circular image" src="_____">
+        </div>
+        <div class="left column">
           <label>Name</label>
           <div class="two fields">
             <div class="field">
-              <input type="text" name="first" id="first" placeholder="First Name" value="{{ profileField 'first' }}">
+              <a type="text">{{ profileField 'first' }}</a>
               {{#if displayFieldError 'first' }}
               <div class="ui error message">
                 <p>You must specify your first name.</p>

@@ -8,17 +8,17 @@ import { Profile, ProfileSchema } from '../../api/profile/profile.js';
 
 const displayErrorMessages = 'displayErrorMessages';
 
-Template.Edit_Profile_Page.onCreated(function onCreated() {
+Template.Profile_Page.onCreated(function onCreated() {
   this.autorun(() => {
     this.subscribe('Profile');
   });
   this.messageFlags = new ReactiveDict();
   this.messageFlags.set(displayErrorMessages, false);
-  this.context = ProfileSchema.namedContext('Edit_Profile_Page');
+  this.context = ProfileSchema.namedContext('Profile_Page');
 });
 
 
-Template.Edit_Profile_Page.helpers({
+Template.Profile_Page.helpers({
   profileField(fieldName) {
     const profile = Profile.findOne(FlowRouter.getParam('_id'));
     // See https://dweldon.silvrback.com/guards to understand '&&' in next line.
@@ -48,7 +48,7 @@ Template.Edit_Profile_Page.helpers({
 //   });
 // });
 
-Template.Edit_Profile_Page.events({
+Template.Profile_Page.events({
   'click .delete'(event, instance) {
     event.preventDefault();
     const r = window.confirm('Do you really want to delete this entry?');

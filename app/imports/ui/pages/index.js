@@ -1,6 +1,3 @@
-import './add-stuff-page.html';
-import './add-stuff-page.js';
-
 import './add-profile-page.html';
 import './add-profile-page.js';
 
@@ -15,6 +12,9 @@ import './edit-session-page.js';
 
 import './edit-profile-page.html';
 import './edit-profile-page.js';
+
+import './profile-page.html';
+import './profile-page.js';
 
 import './home-page.html';
 
