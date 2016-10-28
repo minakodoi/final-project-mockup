@@ -22,6 +22,10 @@
 
 [<img src="https://github.com/minakodoi/final-project-mockup/blob/master/doc/list_profile.png" width="600">](http://localhost:3000/list-profile)
 
+## Home Profile
+
+[<img src="https://github.com/minakodoi/final-project-mockup/blob/master/doc/profile.png" width="600">](http://localhost:3000/profile/123)
+
 ## Listing Study Sessions
 
 [<img src="https://github.com/minakodoi/final-project-mockup/blob/master/doc/list_session.png" width="600">](http://localhost:3000/list-session)
