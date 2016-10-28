@@ -15,7 +15,7 @@
           {{#each course in courseList}}
             <tr>
               <td>{{course.name}}</td>
-              <td>{{course.sensei}}</td>
+              <td><a href="{{pathFor 'Profile_Page' _id=course._id }}">{{course.sensei}}</a></td>
               <td>{{course.grasshopper}}</td>
             </tr>
           {{/each}}
