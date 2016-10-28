@@ -1,6 +1,6 @@
 ## Home Page Before Log In
 
-[<img src="https://github.com/minakodoi/final-project-mockup/blob/master/doc/home_logout.png" width="600">](http://localhost:3000)
+[<img src="/doc/home_logout.png" width="600">](http://localhost:3000)
 
 ## Home Page After Log In
 
